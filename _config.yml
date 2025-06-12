@@ -25,6 +25,7 @@ github_username:  patdryburgh
 
 # Build settings
 markdown: kramdown
+theme: hitchens-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
