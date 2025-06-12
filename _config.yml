@@ -29,7 +29,8 @@ icon: /assets/images/icon-512.png
 # Build settings
 markdown: kramdown
 
-theme: hitchens-theme
+#theme: hitchens-theme
+remote_theme: patdryburgh/hitchens
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -44,6 +45,7 @@ theme: hitchens-theme
 #   - vendor/ruby/
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
 
 paginate: 3
