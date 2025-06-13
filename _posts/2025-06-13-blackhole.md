@@ -10,7 +10,7 @@ The internet is full of discussions about black holes but these are often from a
 
 ---
 
-# $B=M/M\cup[J^-(\scri^+)]$
+# $$B=M/M\cup[J^-(\scri^+)]$$
 
 Ta Da. This is a black hole (from a global perspective). It is a very formal statement which effectively says
 > A black hole is a causally disconnected region of spacetime
