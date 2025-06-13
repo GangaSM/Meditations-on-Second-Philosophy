@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Meditations on Second Philosophy
-description: A creative outlet where I consolidate and share ideas within physics and philosophy
+description: Sharing ideas in Physics and Philosophy
 email: ganga@manchanda.co.uk
 #description: >- # this means to ignore newlines until "baseurl:"
 #  An inarguably well-designed Jekyll theme.
