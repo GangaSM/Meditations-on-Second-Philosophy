@@ -4,10 +4,10 @@ layout: post
 author: Ganga Singh Manchanda
 category: physics
 ---
-`
-Submission to SoME 2025.
-The internet is full of discussions about black holes but these are often from an astrophysical perspective, discussing the formation of black     holes or phenomenology at and beyond the horizon. Rarely is a black hole described from a global perspective, even though their effect on the      spacetime is absolutely global.
-`
+
+`Submission to SoME 2025.
+The internet is full of discussions about black holes but these are often from an astrophysical perspective, discussing the formation of black     holes or phenomenology at and beyond the horizon. Rarely is a black hole described from a global perspective, even though their effect on the      spacetime is absolutely global.`
+
 ---
 # $B=M/M\cup[J^-(\scri^+)]$
 
