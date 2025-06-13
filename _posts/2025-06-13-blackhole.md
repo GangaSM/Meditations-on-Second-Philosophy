@@ -1,12 +1,12 @@
 ---
-title: But What is a Black Hole?
+title: But what IS a black hole?
 layout: post
 author: Ganga Singh Manchanda
 category: physics
 ---
 
-`Submission to SoME 2025.
-The internet is full of discussions about black holes but these are often from an astrophysical perspective, discussing the formation of black     holes or phenomenology at and beyond the horizon. Rarely is a black hole described from a global perspective, even though their effect on the      spacetime is absolutely global.`
+Submission to SoME 2025.
+There is a problem with most resources on the internet explaining ideas around black holes. The problem is that black holes are generally spoken about as local astrophysical phenomena and they are so much more than that. This article will move past discussions on formation and local phenomenology and try to impress on the reader a global understanding of a black hole - A universe with a black hole is fundamentally different to a universe without one.
 
 ---
 
@@ -14,7 +14,7 @@ The internet is full of discussions about black holes but these are often from a
   \[ B=M/M\cup[J^-(\mathcal{I}^+)] \]
 </div>
 
-Ta Da. This is a black hole (from a global perspective). It is a very formal statement which effectively says
+Behold! This is a black hole (from a global perspective). It is a very formal statement which effectively says
 > A black hole is a causally disconnected region of spacetime
 
 This article will break that very formal statement down across - different chapters each explaining an aspect of this statement. By the end you should have a complete picture of what this statement is saying.
@@ -52,6 +52,8 @@ We cut the universe in two parts. In one part, things can influence each other a
 
 
 ### Singularity
+
+a black hole doesnt require a singularity
 
 
 
