@@ -5,17 +5,17 @@ author: Ganga Singh Manchanda
 category: physics
 ---
 
-```
-{
-  Submission to SoME 2025.
-  The internet is full of discussions about black holes but these are often from an astrophysical perspective, discussing the formation of black     holes or phenomenology at the horizon. Rarely is a black hole described from a global perspective, even though their effect on the spacetime is    absolutely global.
-}
-```
+'
+Submission to SoME 2025.
+The internet is full of discussions about black holes but these are often from an astrophysical perspective, discussing the formation of black     holes or phenomenology at and beyond the horizon. Rarely is a black hole described from a global perspective, even though their effect on the      spacetime is absolutely global.
+'
+
 ---
-# A black hole is a causally disconnected region of spacetime
 # $B=M/M\cup[J^-(\scri^+)]$
 
-There you go. Thats what a black hole is. This article will break that very formal statement down across - different chapters each explaining an aspect of this statement. By the end you should have a complete picture of what this statement is saying. The article will end with an essay by Laplace who discussed black holes in an elegant way over 300 years ago
+This is the global definition of black hole. It effectively says
+> A black hole is a causally disconnected region of spacetime
+This article will break that very formal statement down across - different chapters each explaining an aspect of this statement. By the end you should have a complete picture of what this statement is saying. The article will end with an essay by Laplace who discussed black holes in an elegant way over 300 years ago
 
 1. Spacetime
 2. Causality
