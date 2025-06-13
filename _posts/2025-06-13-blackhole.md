@@ -1,8 +1,48 @@
 ---
-title: but What is a Black Hole?
+title: But What is a Black Hole?
 layout: post
 author: Ganga Singh Manchanda
 category: physics
 ---
 
-> A black hole is a causally disconnected region of spacetime
+```
+{
+  Submission to SoME 2025.
+  The internet is full of discussions about black holes but these are often from an astrophysical perspective, discussing the formation of black     holes or phenomenology at the horizon. Rarely is a black hole described from a global perspective, even though their effect on the spacetime is    absolutely global.
+}
+```
+---
+# A black hole is a causally disconnected region of spacetime
+# $B=M/M\cup[J^-(\scri^+)]$
+
+There you go. Thats what a black hole is. This article will break that very formal statement down across - different chapters each explaining an aspect of this statement. By the end you should have a complete picture of what this statement is saying. The article will end with an essay by Laplace who discussed black holes in an elegant way over 300 years ago
+
+1. Spacetime
+2. Causality
+3. Singularities
+4. Laplaces Black Star
+
+### Spacetime
+
+Future null infinity
+
+
+LIGHT gets pulled back due to curvature
+
+### Causality
+
+Light can transmits signals between places and this transmission is what causes things to happen.
+
+Wiggle a magnet, the EM force transmits that force to CAUSE another magnet to wiggle outside.
+
+The speed limit of the universe is c
+
+If a magnet is inside a black hole then no matter what I do to it, it can never cause anything to happen to a magnet outside the black hole
+
+A black hole is a region of the universe where once I go in I cant come back out by travelling faster than c
+
+We cut the universe in two parts. In one part, things can influence each other and in the other half they cant. This causal connection only goes one way and that is the black hole. 
+
+### Singularities
+
+
