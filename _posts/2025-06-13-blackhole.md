@@ -12,6 +12,10 @@ The internet is full of discussions about black holes but these are often from a
 
 # $$ B=M/M\cup[J^-(\mathcal{I}^+)] $$
 
+<div style="text-align: center; font-size: 2em; font-weight: bold;">
+  \[ B=M/M\cup[J^-(\mathcal{I}^+)] \]
+</div>
+
 Ta Da. This is a black hole (from a global perspective). It is a very formal statement which effectively says
 > A black hole is a causally disconnected region of spacetime
 
