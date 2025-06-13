@@ -53,7 +53,7 @@ We cut the universe in two parts. In one part, things can influence each other a
 
 ### Singularity
 
-From what weve discussed it seems that a black holes doesn't necessarily clothe a singularity, and that would be correct. A black hole doesn't require a singularity. But in most solutions we look at there is a singularity. A singularity is a defect in spacetime. Its where the curvature blows up or more fundamentally, where *insert singularity theorem here
+From what weve discussed it seems that a black holes doesn't necessarily clothe a singularity, and that would be correct. A black hole doesn't require a singularity. But in most solutions we look at there is a singularity. A singularity is a defect in spacetime. Its where the curvature blows up or more fundamentally, where *insert singularity theorem here. Singularities are a topological issue. Dont worry, quantum gravity has singularity resolution
 
 ### Laplace
 
