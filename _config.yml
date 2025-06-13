@@ -30,7 +30,7 @@ icon: /assets/images/icon-512.png
 markdown: kramdown
 
 #theme: hitchens-theme
-remote_theme: patdryburgh/hitchens
+#remote_theme: patdryburgh/hitchens
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
