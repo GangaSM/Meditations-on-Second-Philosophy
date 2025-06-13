@@ -53,10 +53,8 @@ We cut the universe in two parts. In one part, things can influence each other a
 
 ### Singularity
 
-a black hole doesnt require a singularity
-
-
+From what weve discussed it seems that a black holes doesn't necessarily clothe a singularity, and that would be correct. A black hole doesn't require a singularity. But in most solutions we look at there is a singularity. A singularity is a defect in spacetime. Its where the curvature blows up or more fundamentally, where *insert singularity theorem here
 
 ### Laplace
 
-Laplaces black star
+I want to end with a short discussion about an essay written by Pierre Simon Laplace over 200 years ago. At the time Newtons theory of Gravity prevailed, but with a corpuscular theory of light, Newtonian gravity still predicted a bending of light in a gravitational field. Laplace then imagine a star so great that its gravitational field would stop its light from ever leaving, a dark star. 
