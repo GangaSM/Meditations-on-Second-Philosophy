@@ -14,7 +14,9 @@ The internet is full of discussions about black holes but these are often from a
 Ta Da. This is a black hole (from a global perspective). It is a very formal statement which effectively says
 > A black hole is a causally disconnected region of spacetime
 
-This article will break that very formal statement down across - different chapters each explaining an aspect of this statement. By the end you should have a complete picture of what this statement is saying. After that we will explain some of the global results of this. The article will end with an essay by Laplace who discussed black holes in an elegant way over 300 years ago
+This article will break that very formal statement down across - different chapters each explaining an aspect of this statement. By the end you should have a complete picture of what this statement is saying.
+
+I wont have to make reference to specific types of black holes (solutions to Einsteins equations) because they should all obey this condition. After that we will explain some of the global results of this. The article will end with an essay by Laplace who discussed black holes in an elegant way over 300 years ago
 
 1. Spacetime
 2. Causality
