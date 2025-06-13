@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Meditations on Second Philosophy
-description: Deep reflections...
-email: hello@patdryburgh.com
+description: A creative outlet where I consolidate and share ideas within physics and philosophy
+email: ganga@manchanda.co.uk
 #description: >- # this means to ignore newlines until "baseurl:"
 #  An inarguably well-designed Jekyll theme.
 #baseurl: "/hitchens" # the subpath of your site, e.g. /blog
