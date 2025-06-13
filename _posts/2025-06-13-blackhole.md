@@ -10,9 +10,7 @@ The internet is full of discussions about black holes but these are often from a
 
 ---
 
-# $$ B=M/M\cup[J^-(\mathcal{I}^+)] $$
-
-<div style="text-align: center; font-size: 2em; font-weight: bold;">
+<div style="text-align: center; font-size: 3em; font-weight: bold;">
   \[ B=M/M\cup[J^-(\mathcal{I}^+)] \]
 </div>
 
