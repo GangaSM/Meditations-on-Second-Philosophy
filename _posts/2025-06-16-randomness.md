@@ -1,5 +1,5 @@
 ---
-title: Quantum Mechanics and Random Numbers: A Guide to DIQRNGs
+title: "Quantum Mechanics and Random Numbers: A Guide to DIQRNGs"
 layout: post
 author: Ganga Singh Manchanda
 category: physics
