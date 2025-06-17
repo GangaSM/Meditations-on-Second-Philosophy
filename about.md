@@ -10,10 +10,10 @@ I completed my Bachelors and Masters in Theoretical Physics at Imperial College 
 Future Post Topics
 - Why should a theory of everything exist?
 - The unreasonable effectiveness of quantisation
-- Emergence - Percolation
-- Cosmological Phase Transitions - Cosmic Strings and topological defects
-- Weak time travel - how ftl signalling effective time travels 
-- Newtons geometric derivation
+- Emergence Phenomena
+- Cosmological phase transitions - Cosmic strings and topological defects
+- Weak time travel - How FTL signalling can (kind-of) change the past
+- Newtonian gravity - From geometry
 
 
-This colour scheme is inspired by the Leviathan, which was a raid in Destiny 2
+The blog colour scheme is inspired by the Leviathan, which was a raid in Destiny 2
