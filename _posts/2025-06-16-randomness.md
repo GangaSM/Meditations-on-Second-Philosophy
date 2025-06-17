@@ -22,34 +22,24 @@ In this article we're going to think about randomness. Everyone has some sort of
 ### 2.1. Local Hidden Variables and Bell Inequalities
 
 Assume Alice and Bob share a bipartite system and perform local measurements. A local hidden variable (LHV) model assumes the joint distribution of outcomes can be written as:
-
-\[
-P(a, b | x, y) = \int d\lambda \, \rho(\lambda) P(a|x,\lambda) P(b|y,\lambda)
-\]
-
+$$ P(a, b | x, y) = \int d\lambda \, \rho(\lambda) P(a|x,\lambda) P(b|y,\lambda) $$
 where:
-- \( \lambda \): hidden variable shared between the parties
-- \( x, y \): measurement settings
-- \( a, b \): outcomes
-- \( \rho(\lambda) \): probability distribution over hidden variables
+- $$ \lambda $$: hidden variable shared between the parties
+- $$ x, y $$: measurement settings
+- $$ a, b $$: outcomes
+- $$ \rho(\lambda) $$: probability distribution over hidden variables
 
 A **Bell inequality** is a constraint that must be satisfied by any such LHV model. The **CHSH inequality** is the most well-known:
 
-\[
-S = |E(00) + E(01) + E(10) - E(11)| \leq 2
-\]
+$$ S = |E(00) + E(01) + E(10) - E(11)| \leq 2 $$
 
 Here, the correlation function \( E(xy) \) is defined as:
 
-\[
-E(xy) = \sum_{a,b} (-1)^{a \oplus b} P(a, b | x, y)
-\]
+$$ E(xy) = \sum_{a,b} (-1)^{a \oplus b} P(a, b | x, y) $$
 
 Quantum mechanics allows:
 
-\[
-S_{\text{max}} = 2\sqrt{2} \approx 2.828
-\]
+$$ S_{\text{max}} = 2\sqrt{2} \approx 2.828 $$
 
 This quantum violation of the CHSH bound indicates **nonlocality** and, importantly, **intrinsic randomness**.
 
@@ -72,29 +62,23 @@ If the outcome of a measurement can’t be explained by any deterministic model 
 Assume a repeated experiment over \( n \) rounds.
 
 At each round:
-- Alice chooses input \( x_i \in \{0,1\} \), Bob chooses \( y_i \in \{0,1\} \).
-- They receive outputs \( a_i, b_i \in \{0,1\} \).
+- Alice chooses input $$ x_i \in \{0,1\} $$, Bob chooses $$ y_i \in \{0,1\} $$.
+- They receive outputs $$ a_i, b_i \in \{0,1\} $$.
 - The observed frequencies define the empirical conditional probabilities:
 
-\[
-\hat{P}_n(a,b|x,y) = \frac{1}{n_{x,y}} \sum_{i=1}^n \delta_{x_i,x} \delta_{y_i,y} \delta_{a_i,a} \delta_{b_i,b}
-\]
+$$ \hat{P}_n(a,b|x,y) = \frac{1}{n_{x,y}} \sum_{i=1}^n \delta_{x_i,x} \delta_{y_i,y} \delta_{a_i,a} \delta_{b_i,b} $$
 
 A Bell inequality (e.g., CHSH) is evaluated on this empirical distribution.
 
 ### 3.2. Min-Entropy and Guessing Probability
 
-The **min-entropy** of Alice’s outcome given adversary’s side information \( E \) is:
+The **min-entropy** of Alice’s outcome given adversary’s side information $$ E $$ is:
 
-\[
-H_{\min}(A|E) = -\log_2 P_{\text{guess}}(A|E)
-\]
+$$ H_{\min}(A|E) = -\log_2 P_{\text{guess}}(A|E) $$
 
-Where \( P_{\text{guess}} \) is the maximum probability that an adversary with access to \( E \) can correctly guess Alice’s output. From a CHSH violation \( S \), one can lower-bound the min-entropy using known results (Pironio et al. 2010):
+Where $$ P_{\text{guess}} $$ is the maximum probability that an adversary with access to $$ E $$ can correctly guess Alice’s output. From a CHSH violation $$ S $$, one can lower-bound the min-entropy using known results (Pironio et al. 2010):
 
-\[
-H_{\min}(A|E) \geq 1 - \log_2\left(1 + \sqrt{2 - \frac{S^2}{4}}\right)
-\]
+$$ H_{\min}(A|E) \geq 1 - \log_2\left(1 + \sqrt{2 - \frac{S^2}{4}}\right) $$
 
 This gives the number of **certified bits of randomness per round**.
 
@@ -106,13 +90,11 @@ For a sequence of quantum measurements, the **Entropy Accumulation Theorem** (EA
 
 Let each round be modeled by a **quantum instrument** \( \mathcal{M}_i \), and suppose the outcome statistics satisfy an EAT channel structure. Then:
 
-\[
-H_{\min}^{\epsilon}(A^n | E) \geq n \cdot h_{\text{min}}(S) - \Delta(n, \epsilon)
-\]
+$$ H_{\min}^{\epsilon}(A^n | E) \geq n \cdot h_{\text{min}}(S) - \Delta(n, \epsilon) $$
 
 where:
-- \( h_{\text{min}}(S) \): per-round min-entropy rate as a function of the Bell violation
-- \( \Delta(n, \epsilon) \): finite-size correction term, logarithmic in \( 1/\epsilon \)
+- $$ h_{\text{min}}(S) $$: per-round min-entropy rate as a function of the Bell violation
+- $$ \Delta(n, \epsilon) $$: finite-size correction term, logarithmic in \( 1/\epsilon \)
 
 This allows randomness certification in **finite-size experiments**.
 
@@ -133,22 +115,20 @@ Use independent weak random sources (or prior randomness) to choose measurement 
 ### Step 3: Measurement and Outcome Collection
 
 Perform measurements and record inputs and outputs:
-- \( X^n = (x_1, \dots, x_n) \)
-- \( Y^n = (y_1, \dots, y_n) \)
-- \( A^n = (a_1, \dots, a_n) \)
-- \( B^n = (b_1, \dots, b_n) \)
+- $$ X^n = (x_1, \dots, x_n) $$
+- $$ Y^n = (y_1, \dots, y_n) $$
+- $$ A^n = (a_1, \dots, a_n) $$
+- $$ B^n = (b_1, \dots, b_n) $$
 
 ### Step 4: CHSH Evaluation and Entropy Estimation
 
-Estimate empirical CHSH value \( \hat{S}_n \). Use this to bound the min-entropy \( H_{\min}(A^n|E) \) via EAT.
+Estimate empirical CHSH value $$ \hat{S}_n $$. Use this to bound the min-entropy $$ H_{\min}(A^n|E) $$ via EAT.
 
 ### Step 5: Randomness Extraction
 
 Apply a **quantum-proof randomness extractor**, such as Trevisan’s extractor, to produce a nearly uniform output string \( R \) with:
 
-\[
-R = \text{Ext}(A^n, \text{seed})
-\]
+$$ R = \text{Ext}(A^n, \text{seed}) $$
 
 This seed can be reused if the extractor is strong.
 
@@ -158,13 +138,11 @@ This seed can be reused if the extractor is strong.
 
 ### 5.1. Extractors and Adversaries
 
-Given \( A^n \) with high min-entropy conditioned on quantum side information \( E \), we apply an extractor:
+Given $$ A^n $$ with high min-entropy conditioned on quantum side information \( E \), we apply an extractor:
 
-\[
-\text{Ext}: \{0,1\}^n \times \{0,1\}^d \to \{0,1\}^m
-\]
+$$ \text{Ext}: \{0,1\}^n \times \{0,1\}^d \to \{0,1\}^m $$
 
-such that \( \| \rho_{R,E} - \tau_m \otimes \rho_E \|_{\text{tr}} \leq \epsilon \), i.e., the extracted output is \( \epsilon \)-close to uniform and independent of the adversary's state.
+such that $$ \| \rho_{R,E} - \tau_m \otimes \rho_E \|_{\text{tr}} \leq \epsilon $$, i.e., the extracted output is $$ \epsilon $$-close to uniform and independent of the adversary's state.
 
 ### 5.2. Toeplitz Hashing and Trevisan Extractors
 
@@ -179,9 +157,9 @@ such that \( \| \rho_{R,E} - \tau_m \otimes \rho_E \|_{\text{tr}} \leq \epsilon 
 
 1. **Quantum Mechanics**: The systems behave according to quantum theory.
 2. **No-Signaling**: Measurements are performed in space-like separated regions.
-3. **Measurement Independence**: Inputs \( x \), \( y \) are independent of hidden variables \( \lambda \).
+3. **Measurement Independence**: Inputs $$ x $$, $$ y $$ are independent of hidden variables $$ \lambda $$.
 4. **Trusted Extractor**: The randomness extractor must be correctly implemented and independent of the devices.
-5. **Finite Statistics Accounted For**: All error probabilities are bounded within acceptable \( \epsilon \)-security margins.
+5. **Finite Statistics Accounted For**: All error probabilities are bounded within acceptable $$ \epsilon $$-security margins.
 
 ---
 
@@ -191,11 +169,9 @@ Modern DIQRNG protocols are designed to be **composable**, i.e., the security gu
 
 Security is quantified via the **trace distance**:
 
-\[
-\| \rho_{R,E} - \tau_m \otimes \rho_E \|_{\text{tr}} \leq \epsilon
-\]
+$$ \| \rho_{R,E} - \tau_m \otimes \rho_E \|_{\text{tr}} \leq \epsilon $$
 
-where \( R \) is the output string and \( \tau_m \) is the uniform distribution over \( m \) bits.
+where $$ R $$ is the output string and $$ \tau_m $$ is the uniform distribution over $$ m $$ bits.
 
 ---
 
