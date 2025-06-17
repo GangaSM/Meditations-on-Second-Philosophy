@@ -1,5 +1,5 @@
 ---
-title: A Guide to Device-Independent Quantum Random Number Generation
+title: Quantum Mechanics and Random Numbers: A Guide to DIQRNGs
 layout: post
 author: Ganga Singh Manchanda
 category: physics
@@ -9,11 +9,10 @@ category: physics
 
 ## 1. Introduction
 
-Randomness lies at the heart of cryptography, secure communications, and probabilistic modeling. In classical computing, randomness is generated algorithmically (pseudorandomly), but this can be predictable if the seed or algorithm is known. Even hardware random number generators may be compromised if their physical processes are not well-characterized or if they are tampered with.
+In this article we're going to think about randomness. Everyone has some sort of belief in randomness, most common those beliefs is that it exists. For the most part however our lives and experiences and ideas aren't random, they are shaped by previous actions and events and interactions. If I asked you to shout out a random number right now, even that isn't truly random because we all carry these inherent biases around with us as if it was baggage. Specific numbers have special associations (a birthday for example) and some numbers are just pleasing to think about (7 I'm looking at you) and this all makes a human a terrible random number generator. Ask a computer then, surely a sufficiently powerful computer can produce a random number. And it can, but given enough information that `random' number can be predicted because classical computers rely on a seed which is usually based on something `random' from the real world. Another solution is necessary then. A number of applications such as secure communication and probabilistic modelling require randomness, and if the randomness is predictable then these applications fail. Quantum Mechanics will provide us that solution in the form of a **Device-Independent Quantum Random Number Generator (DIQRNG)**
 
-Quantum mechanics, through the principle of superposition and measurement, offers a solution: **intrinsic randomness**. However, **Device-Independent Quantum Random Number Generators (DIQRNGs)** take this a step further by **removing the need to trust the devices themselves**. Instead, the validity of the generated randomness relies on fundamental principles of quantum mechanics, particularly **Bell nonlocality**.
-
-This review article presents a mathematically detailed discussion of DIQRNGs: the theory behind them, how they work, how randomness is certified, and how real-world constraints are handled.
+> `God does not play dice with the universe' - Albert Einstein
+> `He sure does' - Ganga Singh Manchanda
 
 ---
 
