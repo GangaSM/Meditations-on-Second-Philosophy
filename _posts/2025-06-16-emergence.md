@@ -1,5 +1,5 @@
 ---
-title: Emergence Classicality from Quantum Foundations
+title: Emergence
 layout: post
 author: Ganga Singh Manchanda
 category: philosophy of physics
