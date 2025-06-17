@@ -22,7 +22,7 @@ In this article we're going to think about randomness. Everyone has some sort of
 ### 2.1. Local Hidden Variables and Bell Inequalities
 
 Assume Alice and Bob share a bipartite system and perform local measurements. A local hidden variable (LHV) model assumes the joint distribution of outcomes can be written as:
-$$ P(a, b | x, y) = \int d\lambda \, \rho(\lambda) P(a|x,\lambda) P(b|y,\lambda) $$
+/[ P(a, b | x, y) = \int d\lambda \, \rho(\lambda) P(a|x,\lambda) P(b|y,\lambda) /]
 where:
 - $$ \lambda $$: hidden variable shared between the parties
 - $$ x, y $$: measurement settings
