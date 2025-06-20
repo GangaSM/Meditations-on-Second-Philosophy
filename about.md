@@ -15,6 +15,8 @@ Future Post Topics
 - Cosmological phase transitions - Cosmic strings and topological defects
 - Weak time travel - How FTL signalling can (kind-of) change the past
 - Newtonian gravity - From geometry
+- Humans, Birds, and Compactification
+- A guide to misleading statistics
 
 
 
