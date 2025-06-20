@@ -15,34 +15,16 @@ In this article we're going to think about randomness. Everyone has some sort of
 
 ---
 
-## 1. Introduction: What is Randomness, and Why Go "Device-Independent"?
-
-### 1.1 The Fundamental Need for Randomness
-
-Random numbers are a critical resource in many areas of science and technology:
-
-*   **Cryptography:** Generating cryptographic keys, nonces, initialization vectors, and padding. Security often hinges on the unpredictability of these numbers.
-*   **Simulations:** Monte Carlo methods in physics, finance, and other fields rely on random sampling.
-*   **Scientific Experiments:** Designing randomized trials, reducing bias.
-*   **Statistical Sampling:** Ensuring representative data.
-*   **Gambling and Lotteries:** Fair play requires unpredictable outcomes.
-
-### 1.2 The Problem with Traditional Randomness
-
-Traditionally, random numbers are generated in a few ways:
+Random numbers are a necessary resource for Cryptography, scientific Experiments + simulations, Statistical Sampling, Gambling and Lotteries.
 
 *   **Pseudo-Random Number Generators (PRNGs):** These are deterministic algorithms that start from a seed value and produce sequences that *appear* random. However, given the seed and the algorithm, the entire sequence is predictable. They are useful for simulations but completely insecure for cryptography if the seed is compromised or the state is revealed. They don't generate true randomness, but rather *expand* a small amount of initial randomness (the seed).
 *   **Hardware Random Number Generators (HRNGs):** These exploit unpredictable physical processes (like thermal noise in resistors, atmospheric noise, radioactive decay, timing jitter, etc.). The *source* of randomness here is physical entropy.
     *   **The Problem:** The randomness from HRNGs depends entirely on the assumption that the physical process is truly unpredictable and that the *device implementing it is working exactly as intended*. How do you verify this? How do you know there isn't a subtle bias, a malfunction, or even a hidden backdoor that allows someone to predict or control the output?
 
-### 1.3 Quantum Random Number Generators (QRNGs)
-
 Quantum mechanics provides a natural source of true randomness. Measurements of quantum systems on incompatible observables yield fundamentally unpredictable outcomes. Examples include measuring the polarization of a single photon, the decay of an unstable atom, or the path taken by a particle in a superposition.
 
 *   **Device-Dependent QRNGs:** Most existing QRNGs are device-dependent. They rely on measuring a specific quantum system (e.g., sending a photon into a beam splitter and measuring which path it takes) and *trusting* that the device (the source, the beam splitter, the detectors) is working correctly and is built according to specifications that guarantee quantum randomness.
     *   **The Problem:** Like HRNGs, the security of these QRNGs is conditional on trusting the device. If the device is manufactured by a malicious party, or if it degrades over time, the "random" output could be subtly biased or even predictable, completely undermining security applications like cryptography. How can a user verify the device's integrity without fully reverse-engineering and characterizing it?
-
-### 1.4 The Promise of Device-Independent QRNGs (DIQRNGs)
 
 This is where device independence comes in. A DIQRNG doesn't require you to trust the *internal workings* or *specifications* of the quantum device. Its randomness is certified and quantified purely by observing its *output behavior* in a specific, carefully designed test.
 
@@ -61,9 +43,9 @@ To understand DIQRNGs in excruciating detail, we need to revisit some fundamenta
 
 *   **True Randomness (Strong Randomness):** A sequence where each bit is independent and uniformly distributed (each bit is 0 or 1 with probability 1/2, independent of all other bits). This is the ideal for applications like cryptography.
 *   **Weak Randomness:** A sequence that is unpredictable to some degree, but might be biased or correlated. For example, bits that are 1 with probability 0.6, or where consecutive bits have some dependency.
-*   **Min-Entropy:** A rigorous mathematical measure of the *worst-case* unpredictability of a random source. For a random variable $X$, the min-entropy is $H_{\min}(X) = -\log_2(\max_x P(X=x))$, where $\max_x P(X=x)$ is the highest probability of any specific outcome $x$.
-    *   A source with $k$ bits of perfect randomness has $H_{\min} = k$.
-    *   A source with $n$ bits where the most likely $n$-bit string has probability $2^{-m}$ has $H_{\min} = m$. We say it contains $m$ bits of *guaranteed* randomness. $m \le n$. A DIQRNG uses the Bell violation to lower-bound $m$ for the raw outcomes.
+*   **Min-Entropy:** A rigorous mathematical measure of the *worst-case* unpredictability of a random source. For a random variable \[X\], the min-entropy is \[H_{\min}(X) = -\log_2(\max_x P(X=x))\], where \[\max_x P(X=x)\] is the highest probability of any specific outcome \[x\].
+    *   A source with \[k\] bits of perfect randomness has $H_{\min} = k$.
+    *   A source with \[n\] bits where the most likely \[n\]-bit string has probability \[2^{-m}\] has \[H_{\min} = m\]. We say it contains $m$ bits of *guaranteed* randomness. $m \le n$. A DIQRNG uses the Bell violation to lower-bound $m$ for the raw outcomes.
 
 ### 2.2 Entanglement
 
