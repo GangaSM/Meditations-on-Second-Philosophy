@@ -29,8 +29,16 @@ I wont have to make reference to specific types of black holes (solutions to Ein
 
 ### Spacetime
 
+
+Brief introduction to spacetime
+
+all of the universe exists within the confines of spacetime
+
 Future null infinity
 
+quote - mass tells spacetime how to curve. spacetime tells mass how to move
+
+except its not just mass its energy too so this applies to light.
 
 LIGHT gets pulled back due to curvature
 
