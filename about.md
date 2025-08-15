@@ -6,8 +6,13 @@ title: About
 Hi, I'm Ganga. I hope this blog will be a creative outlet where I consolidate and share ideas within physics and philosophy :)
 I completed my Bachelors and Masters in Theoretical Physics at Imperial College London and am now wandering aimlessly for a bit
 
+CV
+[CV]({{ '/assets/CV.pdf' | relative_url }})
+
 Publications
 - [Quantum wormholes at spatial infinity]({{ '/assets/Quantum_Wormholes.pdf' | relative_url }})
+- [When energy isn't enough: Understanding structural failures in VQE]({{ '/assets/When_energy_isn_t_enough.pdf' | relative_url }})
+
 
 Future Post Topics
 - Why should a theory of everything exist?
