@@ -42,13 +42,13 @@ which can bend and distort and where every point corresponds to both a place and
 
 ### Geodesics
 
-The manifold \[M\] allows us to formalise the `arena' that THINGS in the universe exist within, but what are these THINGS?
+The manifold \[ M \] allows us to formalise the `arena' that THINGS in the universe exist within, but what are these THINGS?
 
-Simply put there are two types of THINGS: matter and light, differentiated by mass alone. Matter is bound by mass, allowing it to sit still. Light, unburdened by mass, must always be on the move travelling up to a maximum of \[c=3\times10^8\,\text{ms}^{-1}\] and no faster.
+Simply put there are two types of THINGS: matter and light, differentiated by mass alone. Matter is bound by mass, allowing it to sit still. Light, unburdened by mass, must always be on the move travelling up to a maximum of \[ c=3\times10^8\,\text{ms}^{-1} \] and no faster.
 
 Let us first consider a stationary particle which exists at some point in space. Though the particle is stationary in space, it must still move through time such that its trajectory draws out a worldline through the manifold. This worldline is straight. 
 
-![Spacetime]({{ '/assets/spacetime.png' | relative_url }})
+![Spacetime]({{ '/assets/spacetime.png' | relative_url | height=48px }})
 
 A free particles worldines is always a geodesic (shortest path)
 
@@ -62,21 +62,21 @@ Light represents the limits of what is possible in the universe. Light can trans
 
 Suppose you shine a flashlight into empty space. Where does the light go?
 
-We describe this as a causal connection. Imagine wiggling a magnet, the EM force transmits that force to CAUSE another magnet to wiggle outside. We cut the universe in two parts. In one part, things can influence each other and in the other half they cant. This causal connection only goes one way and that is the black hole. We end up with LIGHTCONES. past light cone can influence a point. point can influence future light cone (for any point \[p \in M\])
+We describe this as a causal connection. Imagine wiggling a magnet, the EM force transmits that force to CAUSE another magnet to wiggle outside. We cut the universe in two parts. In one part, things can influence each other and in the other half they cant. This causal connection only goes one way and that is the black hole. We end up with LIGHTCONES. past light cone can influence a point. point can influence future light cone (for any point \[ p \in M \])
 
 IMAGE
 
 This motivates the formal definitions:
 
-\[J^+(p)\] is the causal future of p and \[J^-(p)\] is the causal past of p. Basically all the points that exist within those two cones. These sets let us talk globally about cause and effect in spacetime
+\[ J^+(p) \] is the causal future of p and \[ J^-(p) \] is the causal past of p. Basically all the points that exist within those two cones. These sets let us talk globally about cause and effect in spacetime
 
-In Newton’s universe: it just travels outward forever. In relativity, we make this idea precise by introducing **conformal infinity**. Future null infinity \[\mathcal{I}^+\] is the idealized “place” where light rays that escape forever end up (see a penrose diagram). Past null infinity \[\mathcal{I}^-\] is where incoming light originates. In flat spacetime, every null geodesic starting inside eventually reaches \[\mathcal{I}^+\]. No event is hidden.
+In Newton’s universe: it just travels outward forever. In relativity, we make this idea precise by introducing **conformal infinity**. Future null infinity \[ \mathcal{I}^+ \] is the idealized “place” where light rays that escape forever end up (see a penrose diagram). Past null infinity \[ \mathcal{I}^- \] is where incoming light originates. In flat spacetime, every null geodesic starting inside eventually reaches \[ \mathcal{I}^+ \]. No event is hidden.
 
 ### Horizons
 
-Consider the set of points defined by \[J^-(\mathcal{I}^+)\]. These are all the events which constitute the causal past of future null infinity. Anywhere in spacetime that can send a signal to infinity is encompassed in this set. We ask does $J^-(\mathcal{I}^+)=M$ ALWAYS hold? The answer is no. In certain spacetimes there must exist a set of points which cannot send a signal to infinity.
+Consider the set of points defined by \[J^-(\mathcal{I}^+)\]. These are all the events which constitute the causal past of future null infinity. Anywhere in spacetime that can send a signal to infinity is encompassed in this set. We ask does \[ J^-(\mathcal{I}^+)=M \] ALWAYS hold? The answer is no. In certain spacetimes there must exist a set of points which cannot send a signal to infinity.
 
-We consider the limit points of the set \[\mathcal{H}^+=\text{Boundary}(J^-(\mathcal{I}^+))\]. This is the (future) event horizon, which divides the universe into two regions. Outside, signals can eventually escape to infinity, while inside signals are trapped forever It is a point of no return. This is the essence of a black hole. If there is a region of spacetime from which no signal, not even light, can escape to infinity, then that region is causally sealed off. In particular, if  \[J^-(\mathcal{I}^+)\] is the set of points that can send a signal to infinity, then the black hole is the complement of this set with respect to the entire manifold \[B=M/M\cap[J^-(\mathcal{I}^+)]\]. Using a Venn diagram:
+We consider the limit points of the set \[ \mathcal{H}^+=\text{Boundary}(J^-(\mathcal{I}^+)) \]. This is the (future) event horizon, which divides the universe into two regions. Outside, signals can eventually escape to infinity, while inside signals are trapped forever It is a point of no return. This is the essence of a black hole. If there is a region of spacetime from which no signal, not even light, can escape to infinity, then that region is causally sealed off. In particular, if  \[ J^-(\mathcal{I}^+) \] is the set of points that can send a signal to infinity, then the black hole is the complement of this set with respect to the entire manifold \[ B=M/M\cap[J^-(\mathcal{I}^+)] \]. Using a Venn diagram:
 
 IMAGE
 
