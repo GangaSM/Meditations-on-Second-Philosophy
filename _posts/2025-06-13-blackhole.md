@@ -3,6 +3,7 @@ title: But what IS a black hole?
 layout: post
 author: Ganga Singh Manchanda
 category: physics
+math: true
 ---
 
 Submission to SoME 2025
