@@ -3,7 +3,6 @@ title: But what IS a black hole?
 layout: post
 author: Ganga Singh Manchanda
 category: physics
-math: true
 ---
 
 Submission to SoME 2025
@@ -39,13 +38,13 @@ This picture is wrong. In 1905, Einstein (along with Lorentz, Minkowski, Poincar
 
 IMAGES
 
-which can bend and distort and where every point corresponds to both a place and time, an event. All of the the universe exists within the confines of this 4D grid. The set of points that make up that grid is called the manifold \( M \)$.
+which can bend and distort and where every point corresponds to both a place and time, an event. All of the the universe exists within the confines of this 4D grid. The set of points that make up that grid is called the manifold $M$.
 
 ### Geodesics
 
-The manifold \( M \) allows us to formalise the `arena' that THINGS in the universe exist within, but what are these THINGS?
+The manifold $M$ allows us to formalise the `arena' that THINGS in the universe exist within, but what are these THINGS?
 
-Simply put there are two types of THINGS: matter and light, differentiated by mass alone. Matter is bound by mass, allowing it to sit still. Light, unburdened by mass, must always be on the move travelling up to a maximum of \( c=3\times10^8\,\text{ms}^{-1} \) and no faster.
+Simply put there are two types of THINGS: matter and light, differentiated by mass alone. Matter is bound by mass, allowing it to sit still. Light, unburdened by mass, must always be on the move travelling up to a maximum of $c=3\times10^8\,\text{ms}^{-1}$ and no faster.
 
 Let us first consider a stationary particle which exists at some point in space. Though the particle is stationary in space, it must still move through time such that its trajectory draws out a worldline through the manifold. This worldline is straight. 
 
