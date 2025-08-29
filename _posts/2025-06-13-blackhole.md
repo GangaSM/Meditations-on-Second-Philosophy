@@ -1,5 +1,6 @@
 ---
 title: But what IS a black hole?
+subtitle: Submission to SoME 2025
 layout: post
 author: Ganga Singh Manchanda
 category: physics
