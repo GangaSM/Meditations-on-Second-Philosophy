@@ -6,7 +6,7 @@ author: Ganga Singh Manchanda
 category: physics
 ---
 
-In the public domain, black holes are generally understood as local astrophysical phenomena. This article aims to move past this treatment and impress on an enthusiastic (non-expert) reader a global understanding of black holes. By exploring General Relativity via causal structure rather than tensor calculus, the discussion remains accessible.
+In the public domain, black holes are generally understood as local astrophysical phenomena. This article aims to move past this treatment and impress on an enthusiastic (non-expert) reader a global understanding of black holes. By exploring relativity via causal structure rather than tensor calculus, our discussion remains accessible.
 
 ---
 
@@ -14,10 +14,10 @@ In the public domain, black holes are generally understood as local astrophysica
   \[ B=M/M\cap[J^-(\mathcal{I}^+)] \]
 </div>
 
-BEHOLD! A black hole. What you see above is a formal (global) definition which effectively says
+BEHOLD! A black hole. What you see above is a formal (global) definition which effectively says:
 
 <div align="center">
-<blockquote>A black hole is a causally disconnected region of spacetime</blockquote>
+<blockquote>A black hole is a causally disconnected region of spacetime.</blockquote>
 </div>
 
 Across six chapters we will build an understanding of this equation such that by the end of this article, you (the reader) can sit in peace  satisfied in your knowledge of what a black hole really is
@@ -36,8 +36,8 @@ Across six chapters we will build an understanding of this equation such that by
 Intuitively, humans adopt a Newtonian picture of the universe. Everything that exists does so within the confines of up-down, side-to-side, and back-and-forth; the three dimensions of space that you can move freely within. Yet there is another direction in which you travel, one that you have no control over - time. If the set of a show exists in three dimensions, the show must go on via a fourth. Quite simply, this is formalised as absolute space (a fixed 3D grid) evolving through absolute time (a fixed 1D line):
 <img src="{{ '/assets/threeplusone.png' | relative_url }}"
      alt="Spacetime"
-     style="width:400px !important; height:auto;">
-This picture is wrong. In 1905, Einstein (along with Lorentz, Minkowski, Poincare etc) ruined everything by coming up with an even better idea - that space and time are not separate. Where before, we imagined absolute space (a fixed 3D grid) evolving through absolute time (a fixed 1D line), we now imagine a malleable spacetime (4D grid):
+     style="width:600px !important; height:auto;">
+This picture is wrong. In 1905, Einstein (along with Lorentz, Minkowski, Poincare etc) ruined everything by coming up with an even better idea - that space and time are not separate. We now imagine a malleable spacetime (4D grid):
 
 IMAGES
 
@@ -53,7 +53,7 @@ Let us first consider a stationary particle which exists at some point in space.
 
 <img src="{{ '/assets/spacetime.png' | relative_url }}"
      alt="Spacetime"
-     style="width:200px !important; height:auto;">
+     style="width:300px !important; height:auto;">
      
 A free particles worldines is always a geodesic (shortest path)
 
