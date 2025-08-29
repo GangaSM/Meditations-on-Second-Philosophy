@@ -17,10 +17,10 @@ In the public domain, black holes are generally understood as local astrophysica
 BEHOLD! A black hole. What you see above is a formal (global) definition which effectively says:
 
 <div align="center">
-<blockquote>A black hole is a causally disconnected region of spacetime.</blockquote>
+<blockquote>A black hole is a causally disconnected region of spacetime</blockquote>
 </div>
 
-Across six chapters we will build an understanding of this equation such that by the end of this article, you (the reader) can sit in peace  satisfied in your knowledge of what a black hole really is
+Across six chapters we will build an understanding of this equation such that by the end of this article, you (the reader) can sit in peace  satisfied in your knowledge of what a black hole really is:
 
 1. Spacetime
 2. Geodesics
@@ -53,7 +53,7 @@ Let us first consider a stationary particle which exists at some point in space.
 
 <img src="{{ '/assets/spacetime.png' | relative_url }}"
      alt="Spacetime"
-     style="width:300px !important; height:auto;">
+     style="width:250px !important; height:auto;">
      
 A free particles worldines is always a geodesic (shortest path)
 
