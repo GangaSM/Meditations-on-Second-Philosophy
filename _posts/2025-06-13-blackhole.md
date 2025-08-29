@@ -33,8 +33,10 @@ Across six chapters we will build an understanding of this equation such that by
 
 ### Spacetime
 
-Intuitively, humans adopt a Newtonian picture of the universe. Everything that exists does so within the confines of up-down, side-to-side, and back-and-forth - three dimensions of space that you (the reader) can move freely within. If the set of a show exists in these three dimensions, then the show must go on because THINGS also exists in a fourth dimension - time - and unlike the other three you have no control over its flow.
-
+Intuitively, humans adopt a Newtonian picture of the universe. Everything that exists does so within the confines of up-down, side-to-side, and back-and-forth; the three dimensions of space that you can move freely within. Yet there is another direction in which you travel, one that you have no control over - time. If the set of a show exists in three dimensions, the show must go on via a fourth. Quite simply, this is formalised as absolute space (a fixed 3D grid) evolving through absolute time (a fixed 1D line):
+<img src="{{ '/assets/threeplusone.png' | relative_url }}"
+     alt="Spacetime"
+     style="width:400px !important; height:auto;">
 This picture is wrong. In 1905, Einstein (along with Lorentz, Minkowski, Poincare etc) ruined everything by coming up with an even better idea - that space and time are not separate. Where before, we imagined absolute space (a fixed 3D grid) evolving through absolute time (a fixed 1D line), we now imagine a malleable spacetime (4D grid):
 
 IMAGES
