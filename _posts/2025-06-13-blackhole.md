@@ -51,7 +51,7 @@ Simply put there are two types of THINGS: matter and light, differentiated by ma
 
 Let us first consider a stationary particle which exists at some point in space. Though the particle is stationary in space, it must still move through time such that its trajectory draws out a worldline through the manifold. This worldline is straight. 
 
-<img src="{{ '/assets/spacetime.png' | relative_url }}" alt="Spacetime" height="48px">
+<img src="{{ '/assets/spacetime.png' | relative_url }}" alt="Spacetime" height="12px">
 
 A free particles worldines is always a geodesic (shortest path)
 
