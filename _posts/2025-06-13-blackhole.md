@@ -6,7 +6,7 @@ author: Ganga Singh Manchanda
 category: physics
 ---
 
-In the public domain, black holes are generally understood as local astrophysical phenomena. This short article aims to move past this treatment and impress on an enthusiastic (non-expert) reader a global understanding of black holes. By exploring advanced topics in relativity via causal structure rather than tensor calculus, our discussion remains accessible.
+In the public domain, black holes are generally understood as local astrophysical phenomena. This short article aims to move past this treatment and impress on an enthusiastic (non-expert) reader a global understanding of black holes. By exploring relativity via causal structure rather than tensor calculus, our discussion covers advanced topics whilst remaining accessible.
 
 ---
 
@@ -37,59 +37,44 @@ Intuitively, humans adopt a Newtonian picture of the universe. Everything that e
 <img src="{{ '/assets/threeplusone.png' | relative_url }}"
      alt="Spacetime"
      style="width:600px !important; height:auto;">
-This picture is wrong. In 1905, Einstein (building on the work of Lorentz, Minkowski, Poincare, etc) ruined everything by coming up with an even better idea - that the flows of space and time are not absolute and are not separate.  We instead picture a malleable and deformable spacetime (4D grid) where every point corresponds to both a place and time, an event. Obviously as beings that exist in 3 spatial dimensions, drawing a 4D grid is quite impossible but we can get an idea by simply imagining all the points together. All of the the universe exists within the confines of this spacetime. The set of points that make up the 4D grid is called the manifold $M$.
+This picture is wrong. In 1905, Einstein (building on the work of Lorentz, Minkowski, Poincare, etc) ruined everything by coming up with an even better idea - that the flows of space and time are not absolute and are not separate.  We instead picture a malleable and deformable spacetime (4D grid) where every point corresponds to both a place and time, an event. Obviously as beings that exist in 3 spatial dimensions, drawing a 4D grid is quite impossible but we can get an idea by simply imagining all the points together. All of the the universe exists within the confines of this spacetime. The set of points that make up the 4D grid is called the manifold $M$. Cant imagine it? Thats okay neither can we. Humans perceive the universe as 3+1 dimensions rather than 4 so to draw it can be quite a struggle. 
 
 ### Geodesics
 
-The manifold $M$ formalises the "arena” that things in the universe exist within, but what things are there? Simply put there are two types of things: matter and light, differentiated by mass alone. Matter, burdened by mass, is bound to its local surroundings allowing matter to choose its own speed. Light, unburdened by mass, has no such luxury and must always travel at $c=3\times10^8\,\text{ms}^{-1}$ (in a vacuum) and no faster. In a way, having mass simply gives the ability to slow down by holding onto the nearby Higgs field - like a bird dragging its feet in water.
+The manifold $M$ formalises the “arena” that things in the universe exist within, but what things are there? Simply put there are two types of things: matter and light, differentiated by mass alone. Matter, burdened by mass, is bound to its local surroundings allowing matter to choose its own speed. Light, unburdened by mass, has no such luxury and must always travel at $c=3\times10^8\,\text{ms}^{-1}$ (in a vacuum) and no faster. In a way, having mass simply gives the ability to slow down by holding onto the nearby Higgs field - like a bird dragging its feet in water.
 
-Let us first consider a stationary particle which exists at some point in space. Though the particle is stationary in space, it must still move through time such that its trajectory draws out a worldline through the manifold. This worldline is straight. 
-
+Let us consider a particle which exists at some time and space denoted by the event $p$. If the particle is stationary, its position in space cannot move yet its position in time cannot stop moving. The result is that the trajectory of the particle through spacetime, its worldline, goes directly upwards. If the particle was a photon, it must travel at $c$ such that the wordline drawn is a $45\degree$ line. Take some time to think about why this is so.
 <img src="{{ '/assets/spacetime.png' | relative_url }}"
      alt="Spacetime"
      style="width:250px !important; height:auto;">
-     
-A free particles worldines is always a geodesic (shortest path)
-
-We have ordinary matter which travels through spacetime on physical trajectories characterised by a speed limit. The speed of light, $c$. While matter travels under the speed limit (timelike geodesics), light travels at this speed limit (null trajectories). 
-
-If the spacetime is curved, then the geodesic that a THING takes is apparently curved, which is why things fall. Earth creates a WELL which things fall into. This is the source of gravity in everyday life - perhaps a familiar picture
+Massive particles of varying speeds have wordlines that lie in between these two extremes - these are called timelike trajectories. The trajectory of the photon is called a null trajectory. Outside of that is spacelike. Spacetime can curve. A free particles worldlines is always a geodesic (shortest path). If the spacetime is curved, then the geodesic that a THING takes is apparently curved, which is why things fall. Earth creates a WELL which things fall into. This is the source of gravity in everyday life - perhaps a familiar picture.
 
 ### Causality
 
-Light represents the limits of what is possible in the universe. Light can transmits signals between places and this transmission is what causes things to happen. We beg the question, what events influence one another?
-
-Suppose you shine a flashlight into empty space. Where does the light go?
-
-We describe this as a causal connection. Imagine wiggling a magnet, the EM force transmits that force to CAUSE another magnet to wiggle outside. We cut the universe in two parts. In one part, things can influence each other and in the other half they cant. This causal connection only goes one way and that is the black hole. We end up with LIGHTCONES. past light cone can influence a point. point can influence future light cone (for any point $p\in M$)
+A very important question: what events can influence one another? Light represents the limits of what is possible in this realm as it can transmits signals between points in space at the fastest speed possible and this transmission may causes things to happen. We describe this as a causal connection. Imagine wiggling a magnet, the EM force transmits that force to CAUSE another magnet to wiggle outside. Suppose you shine a flashlight into empty space. What ensues is a future lightcone, describing all the events that can be reached by that flashlights signal. Inversely a past lightcone shows all the events that could have influenced a point
 
 IMAGE
 
-This motivates the formal definitions:
+These lightcones can be formalised by two sets: $J^+(p)$ is the causal future of p and $J^-(p)$ is the causal past of p. These sets let us talk globally about cause and effect in spacetime
 
-$J^+(p)$ is the causal future of p and $J^-(p)$ is the causal past of $p$. Basically all the points that exist within those two cones. These sets let us talk globally about cause and effect in spacetime
-
-In Newton’s universe: it just travels outward forever. In relativity, we make this idea precise by introducing **conformal infinity**. Future null infinity $\mathcal{I}^+$ is the idealized “place” where light rays that escape forever end up (see a penrose diagram). Past null infinity $\mathcal{I}^-$ is where incoming light originates. In flat spacetime, every null geodesic starting inside eventually reaches $\mathcal{I}^+$. No event is hidden.
+We expect that the light emitted from $p$ travels onwards forever. We make this idea precise with future null infinity $\mathcal{I}^+$, the idealized “place” where light rays that escape forever end up (see a Penrose diagram for more). Past null infinity $\mathcal{I}^-$ is where incoming light originates.
 
 ### Horizons
 
-Consider the set of points defined by $J^-(\mathcal{I}^+)$. These are all the events which constitute the causal past of future null infinity. Anywhere in spacetime that can send a signal to infinity is encompassed in this set. We ask does $J^-(\mathcal{I}^+)=M$ ALWAYS hold? The answer is no. In certain spacetimes there must exist a set of points which cannot send a signal to infinity.
+Consider the set of points defined by $J^-(\mathcal{I}^+)$. These are all the events which constitute the causal past of future null infinity - anywhere in spacetime that can send a signal to infinity is encompassed in this set. We ask does $J^-(\mathcal{I}^+)=M$ ALWAYS hold? The answer is no. In certain spacetimes there must exist a set of points which cannot send a signal to infinity. In flat spacetime, every null geodesic starting inside eventually reaches $\mathcal{I}^+$. No event is hidden.
 
 We consider the limit points of the set $\mathcal{H}^+=\text{Boundary}(J^-(\mathcal{I}^+))$. This is the (future) event horizon, which divides the universe into two regions. Outside, signals can eventually escape to infinity, while inside signals are trapped forever It is a point of no return. This is the essence of a black hole. If there is a region of spacetime from which no signal, not even light, can escape to infinity, then that region is causally sealed off. In particular, if  $J^-(\mathcal{I}^+)$ is the set of points that can send a signal to infinity, then the black hole is the complement of this set with respect to the entire manifold $B=M/M\cap[J^-(\mathcal{I}^+)]$. Using a Venn diagram:
 
 IMAGE
 
-Notice something subtle: the horizon is a **global feature**. An observer crossing it feels nothing special locally. Only by considering the entire causal structure — who can reach infinity, and who cannot — does the horizon become apparent. If a magnet is inside a black hole then no matter what I do to it, it can never cause anything to happen to a magnet outside the black hole
-
-There exist many different types of black hole in General relativity, but all obey this condition.
+Notice something subtle: the horizon is a **global feature**. An observer crossing it feels nothing special locally. Only by considering the entire causal structure — who can reach infinity, and who cannot — does the horizon become apparent. If a magnet is inside a black hole then no matter what I do to it, it can never cause anything to happen to a magnet outside the black hole. There exist many different types of black hole in General relativity, but all obey this condition.
 
 ### A Dark Star
 
 Over 200 years ago, Pierre-Simon Laplace speculated about a “dark star.” At the time Newtons theory of Gravity prevailed, but a corpuscular theory of light predicted a bending of light in a gravitational field. Laplace then imagine a star so great that its gravitational field would stop its light from ever leaving, a dark star. In Einsteins theory of Gravity, 
 
 > Mass (energy) tells spacetime how to curve, spacetime tells mass (energy) how to move
->
->  - John Archibald Wheeler
+> - John Archibald Wheeler
 
 and so shortly after his publication, Schwarzschild came up with a solution that contained a similar ‘dark star’ where the curvature is so deep that light becomes stuck in a deep well and cannot escape. The matter content and arrangement defines the universe
 
@@ -101,8 +86,6 @@ In the aforementioned Schwarzschild solution, one of the key features is that at
 
 In fact singularities are worse than simply points where curvature diverges, they are defects in spacetime. They are points where a geodesic simply stop, indicating a geodesic incompletness of the entire manifold. 
 
-Most black hole spacetimes contain singularities — regions where spacetime ends abruptly. From what weve discussed it seems that a black holes doesn't necessarily clothe a singularity, and that would be correct. A black hole doesn't require a singularity. But in most solutions we look at there is a singularity. Penrose and Hawking proved that under very general conditions (like positive energy density), singularities are inevitable in gravitational collapse. Dont worry, quantum gravity has singularity resolution (supposedly)
-
-> A universe with a black hole is fundamentally different to a universe without one.
+Most black hole spacetimes contain singularities — regions where spacetime ends abruptly. From what weve discussed it seems that a black holes doesn't necessarily clothe a singularity, and that would be correct. A black hole doesn't require a singularity. But in most solutions we look at there is a singularity. Penrose and Hawking proved that under very general conditions (like positive energy density), singularities are inevitable in gravitational collapse. Dont worry, quantum gravity has singularity resolution (supposedly). A universe with a black hole is fundamentally different to a universe without one.
 
 But it is crucial to emphasize: the **global definition of a black hole does not rely on singularities**. The black hole is defined by causal disconnection from $\mathcal{I}^+$, not by what happens in the interior.
