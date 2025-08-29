@@ -5,14 +5,6 @@ author: Ganga Singh Manchanda
 category: physics
 ---
 
-<style>
-p {
-  text-indent: 0;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-</style>
-
 <div style="text-align: center;">
   Submission to SoME 2025
 </div>
