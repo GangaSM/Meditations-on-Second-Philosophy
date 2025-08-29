@@ -20,7 +20,7 @@ BEHOLD! A black hole. What you see above is a formal (global) definition which e
 <blockquote>A black hole is a causally disconnected region of spacetime</blockquote>
 </div>
 
-Across six chapters we will build an understanding of this equation such that by the end of this article, you (the reader) can sit in peace  satisfied in your knowledge of what a black hole really is:
+Across six chapters we will build up to an understanding of this equation such that by the end of this article, you (the reader) can sit in peace satisfied in your knowledge of what a black hole really is:
 
 1. Spacetime
 2. Geodesics
