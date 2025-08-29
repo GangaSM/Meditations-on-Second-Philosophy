@@ -37,18 +37,12 @@ Intuitively, humans adopt a Newtonian picture of the universe. Everything that e
 <img src="{{ '/assets/threeplusone.png' | relative_url }}"
      alt="Spacetime"
      style="width:600px !important; height:auto;">
-This picture is wrong. In 1905, Einstein (along with Lorentz, Minkowski, Poincare etc) ruined everything by coming up with an even better idea - that space and time are not separate. We now imagine a malleable spacetime (4D grid):
-
-IMAGES
-
-which can bend and distort and where every point corresponds to both a place and time, an event. All of the the universe exists within the confines of this 4D grid. The set of points that make up that grid is called the manifold $M$.
+This picture is wrong. In 1905, Einstein (building on the work of Lorentz, Minkowski, Poincare, etc) ruined everything by coming up with an even better idea - that the flows of space and time are not absolute and are not separate.  We instead picture a malleable and deformable spacetime (4D grid) where every point corresponds to both a place and time, an event. Obviously as beings that exist in 3 spatial dimensions, drawing a 4D grid is quite impossible but we can get an idea by simply imagining all the points together. All of the the universe exists within the confines of this spacetime. The set of points that make up the 4D grid is called the manifold $M$.
 
 ### Geodesics
 
-The manifold $M$ allows us to formalise the `arena' that THINGS in the universe exist within, but what are these THINGS?
-
-Simply put there are two types of THINGS: matter and light, differentiated by mass alone. Matter is bound by mass, allowing it to sit still. Light, unburdened by mass, must always be on the move travelling up to a maximum of $c=3\times10^8\,\text{ms}^{-1}$ and no faster.
-
+The manifold $M$ formalises the ’’arena” that things in the universe exist within, but what things are there?
+Simply put there are two types of things: matter and light, differentiated by mass alone. Matter, burdened by mass, is bound to its local surroundings allowing matter to choose its own speed. Light, unburdened by mass, has no such luxury and must always travel at $c=3\times10^8\,\text{ms}^{-1}$ (in a vacuum) and no faster. In a way, having mass simply gives the ability to slow down by holding onto the nearby Higgs field - like a bird dragging its feet in water.
 Let us first consider a stationary particle which exists at some point in space. Though the particle is stationary in space, it must still move through time such that its trajectory draws out a worldline through the manifold. This worldline is straight. 
 
 <img src="{{ '/assets/spacetime.png' | relative_url }}"
