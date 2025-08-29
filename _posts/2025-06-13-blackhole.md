@@ -5,7 +5,17 @@ author: Ganga Singh Manchanda
 category: physics
 ---
 
-Submission to SoME 2025
+<style>
+p {
+  text-indent: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+</style>
+
+<div style="text-align: center;">
+  Submission to SoME 2025
+</div>
 
 In the public domain, black holes are generally understood as local astrophysical phenomena. This article aims to move past this treatment and impress on an enthusiastic (non-expert) reader a global understanding of black holes. Our discussion is high-level yet accessible as we introduce topics in General Relativity via causal structure rather than via tensor calculus.
 
@@ -48,7 +58,7 @@ Simply put there are two types of THINGS: matter and light, differentiated by ma
 
 Let us first consider a stationary particle which exists at some point in space. Though the particle is stationary in space, it must still move through time such that its trajectory draws out a worldline through the manifold. This worldline is straight. 
 
-![Spacetime]({{ '/assets/spacetime.png' | relative_url | height=48px }})
+<img src="{{ '/assets/spacetime.png' | relative_url }}" alt="Spacetime" height="48px">
 
 A free particles worldines is always a geodesic (shortest path)
 
