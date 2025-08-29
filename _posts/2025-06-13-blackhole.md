@@ -6,7 +6,7 @@ author: Ganga Singh Manchanda
 category: physics
 ---
 
-In the public domain, black holes are generally understood as local astrophysical phenomena. This article aims to move past this treatment and impress on an enthusiastic (non-expert) reader a global understanding of black holes. Our discussion is high-level yet accessible as we introduce topics in General Relativity via causal structure rather than via tensor calculus.
+In the public domain, black holes are generally understood as local astrophysical phenomena. This article aims to move past this treatment and impress on an enthusiastic (non-expert) reader a global understanding of black holes. By exploring General Relativity via causal structure rather than tensor calculus, the discussion remains accessible.
 
 ---
 
@@ -14,13 +14,13 @@ In the public domain, black holes are generally understood as local astrophysica
   \[ B=M/M\cap[J^-(\mathcal{I}^+)] \]
 </div>
 
-BEHOLD! This is a black hole (from a global perspective). What you see is a very formal statement which effectively says
+BEHOLD! A black hole. What you see above is a formal (global) definition which effectively says
 
 <div align="center">
 <blockquote>A black hole is a causally disconnected region of spacetime</blockquote>
 </div>
 
-Across six chapters we will break this equation down such that by the end of the article a reader could sit in peace, knowing what a black hole truly is
+Across six chapters we will build an understanding of this equation such that by the end of this article, you (the reader) can sit in peace  satisfied in your knowledge of what a black hole really is
 
 1. Spacetime
 2. Geodesics
