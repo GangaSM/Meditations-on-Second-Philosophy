@@ -41,8 +41,8 @@ This picture is wrong. In 1905, Einstein (building on the work of Lorentz, Minko
 
 ### Geodesics
 
-The manifold $M$ formalises the ’’arena” that things in the universe exist within, but what things are there?
-Simply put there are two types of things: matter and light, differentiated by mass alone. Matter, burdened by mass, is bound to its local surroundings allowing matter to choose its own speed. Light, unburdened by mass, has no such luxury and must always travel at $c=3\times10^8\,\text{ms}^{-1}$ (in a vacuum) and no faster. In a way, having mass simply gives the ability to slow down by holding onto the nearby Higgs field - like a bird dragging its feet in water.
+The manifold $M$ formalises the ’’arena” that things in the universe exist within, but what things are there? Simply put there are two types of things: matter and light, differentiated by mass alone. Matter, burdened by mass, is bound to its local surroundings allowing matter to choose its own speed. Light, unburdened by mass, has no such luxury and must always travel at $c=3\times10^8\,\text{ms}^{-1}$ (in a vacuum) and no faster. In a way, having mass simply gives the ability to slow down by holding onto the nearby Higgs field - like a bird dragging its feet in water.
+
 Let us first consider a stationary particle which exists at some point in space. Though the particle is stationary in space, it must still move through time such that its trajectory draws out a worldline through the manifold. This worldline is straight. 
 
 <img src="{{ '/assets/spacetime.png' | relative_url }}"
