@@ -17,7 +17,7 @@ In the public domain, black holes are generally understood as local astrophysica
 BEHOLD! This is a black hole (from a global perspective). What you see is a very formal statement which effectively says
 
 <div align="center">
-> A black hole is a causally disconnected region of spacetime
+<blockquote>A black hole is a causally disconnected region of spacetime</blockquote>
 </div>
 
 Across six chapters we will break this equation down such that by the end of the article a reader could sit in peace, knowing what a black hole truly is
