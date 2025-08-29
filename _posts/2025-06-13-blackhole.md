@@ -73,8 +73,7 @@ Notice something subtle: the horizon is a **global feature**. An observer crossi
 
 Over 200 years ago, Pierre-Simon Laplace speculated about a “dark star.” At the time Newtons theory of Gravity prevailed, but a corpuscular theory of light predicted a bending of light in a gravitational field. Laplace then imagine a star so great that its gravitational field would stop its light from ever leaving, a dark star. In Einsteins theory of Gravity, 
 
-> Mass (energy) tells spacetime how to curve, spacetime tells mass (energy) how to move
-> - John Archibald Wheeler
+> Spacetime tells matter how to move; matter tells spacetime how to curve - J. A. Wheeler
 
 and so shortly after his publication, Schwarzschild came up with a solution that contained a similar ‘dark star’ where the curvature is so deep that light becomes stuck in a deep well and cannot escape. The matter content and arrangement defines the universe
 
