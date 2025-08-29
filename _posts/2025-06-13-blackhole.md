@@ -16,7 +16,9 @@ In the public domain, black holes are generally understood as local astrophysica
 
 BEHOLD! This is a black hole (from a global perspective). What you see is a very formal statement which effectively says
 
+<div align="center">
 > A black hole is a causally disconnected region of spacetime
+</div>
 
 Across six chapters we will break this equation down such that by the end of the article a reader could sit in peace, knowing what a black hole truly is
 
@@ -89,7 +91,9 @@ There exist many different types of black hole in General relativity, but all ob
 
 Over 200 years ago, Pierre-Simon Laplace speculated about a “dark star.” At the time Newtons theory of Gravity prevailed, but a corpuscular theory of light predicted a bending of light in a gravitational field. Laplace then imagine a star so great that its gravitational field would stop its light from ever leaving, a dark star. In Einsteins theory of Gravity, 
 
-> Mass (energy) tells spacetime how to curve, spacetime tells mass (energy) how to move - Wheeler
+> Mass (energy) tells spacetime how to curve, spacetime tells mass (energy) how to move
+>
+>  - John Archibald Wheeler
 
 and so shortly after his publication, Schwarzschild came up with a solution that contained a similar ‘dark star’ where the curvature is so deep that light becomes stuck in a deep well and cannot escape. The matter content and arrangement defines the universe
 
