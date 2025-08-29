@@ -6,7 +6,7 @@ author: Ganga Singh Manchanda
 category: physics
 ---
 
-In the public domain, black holes are generally understood as local astrophysical phenomena. This article aims to move past this treatment and impress on an enthusiastic (non-expert) reader a global understanding of black holes. By exploring relativity via causal structure rather than tensor calculus, our discussion remains accessible.
+In the public domain, black holes are generally understood as local astrophysical phenomena. This short article aims to move past this treatment and impress on an enthusiastic (non-expert) reader a global understanding of black holes. By exploring advanced topics in relativity via causal structure rather than tensor calculus, our discussion remains accessible.
 
 ---
 
