@@ -11,7 +11,7 @@ In the public domain, black holes are generally understood as local astrophysica
 ---
 
 <div style="text-align: center; font-size: 3em; font-weight: bold;">
-  \[ B=M/M\cap[J^-(\mathcal{I}^+)] \]
+  \[ B=M/[M\cap J^-(\mathcal{I}^+)] \]
 </div>
 
 BEHOLD! A black hole. What you see above is a formal (global) definition which effectively says:
