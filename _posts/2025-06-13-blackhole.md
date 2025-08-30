@@ -20,7 +20,7 @@ BEHOLD! A black hole. What you see above is a formal (global) definition which e
 <blockquote>A black hole is a causally disconnected region of spacetime</blockquote>
 </div>
 
-Across six chapters we will build up to an understanding of this equation such that by the end of this article, you (the reader) can sit in peace satisfied in your knowledge of what a black hole really is:
+Across the following chapters we will build up to an understanding of this equation such that by the end of this article, you (the reader) can sit in peace satisfied in your knowledge of what a black hole really is:
 
 1. Spacetime
 2. Geodesics
@@ -37,27 +37,38 @@ Intuitively, humans adopt a Newtonian picture of the universe. Everything that e
 <img src="{{ '/assets/threeplusone.png' | relative_url }}"
      alt="Spacetime"
      style="width:600px !important; height:auto;">
-This picture is wrong. In 1905, Einstein (building on the work of Lorentz, Minkowski, Poincare, etc) ruined everything by coming up with an even better idea - that the flows of space and time are not absolute and are not separate.  We instead picture a malleable and deformable spacetime (4D grid) where every point corresponds to both a place and time, an event. Obviously as beings that exist in 3 spatial dimensions, drawing a 4D grid is quite impossible but we can get an idea by simply imagining all the points together. All of the the universe exists within the confines of this spacetime. The set of points that make up the 4D grid is called the manifold $M$. Cant imagine it? Thats okay neither can we. Humans perceive the universe as 3+1 dimensions rather than 4 so to draw it can be quite a struggle. 
-
-### Geodesics
-
-The manifold $M$ formalises the “arena” that things in the universe exist within, but what things are there? Simply put there are two types of things: matter and light, differentiated by mass alone. Matter, burdened by mass, is bound to its local surroundings allowing matter to choose its own speed. Light, unburdened by mass, has no such luxury and must always travel at $c=3\times10^8\,\text{ms}^{-1}$ (in a vacuum) and no faster. In a way, having mass simply gives the ability to slow down by holding onto the nearby Higgs field - like a bird dragging its feet in water.
-
-Let us consider a particle which exists at some time and space denoted by the event $p$. If the particle is stationary, its position in space cannot move yet its position in time cannot stop moving. The result is that the trajectory of the particle through spacetime, its worldline, goes directly upwards. If the particle was a photon, it must travel at $c$ such that the wordline drawn is a $45\degree$ line. Take some time to think about why this is so.
-<img src="{{ '/assets/spacetime.png' | relative_url }}"
-     alt="Spacetime"
-     style="width:250px !important; height:auto;">
-Massive particles of varying speeds have wordlines that lie in between these two extremes - these are called timelike trajectories. The trajectory of the photon is called a null trajectory. Outside of that is spacelike. Spacetime can curve. A free particles worldlines is always a geodesic (shortest path). If the spacetime is curved, then the geodesic that a THING takes is apparently curved, which is why things fall. Earth creates a WELL which things fall into. This is the source of gravity in everyday life - perhaps a familiar picture.
-
-### Causality
-
-A very important question: what events can influence one another? Light represents the limits of what is possible in this realm as it can transmits signals between points in space at the fastest speed possible and this transmission may causes things to happen. We describe this as a causal connection. Imagine wiggling a magnet, the EM force transmits that force to CAUSE another magnet to wiggle outside. Suppose you shine a flashlight into empty space. What ensues is a future lightcone, describing all the events that can be reached by that flashlights signal. Inversely a past lightcone shows all the events that could have influenced a point
+This picture is wrong. In 1905, Einstein (building on the work of Lorentz, Minkowski, Poincare, etc) ruined everything by coming up with an even better idea - that the flows of space and time are not absolute and are not separate.  We instead picture a malleable and deformable “spacetime” (4D grid) where every point corresponds to both a place and time, an event. The set of points that make up this grid is called the manifold $M$ and all of the universe exists within its confines. Can’t picture it? Thats okay, we can’t either as humans perceive the universe as $3+1$D (as with the Newtonian picture). Eliminating two spatial dimensions allows us to draw informative spacetime diagrams:
 
 IMAGE
 
-These lightcones can be formalised by two sets: $J^+(p)$ is the causal future of p and $J^-(p)$ is the causal past of p. These sets let us talk globally about cause and effect in spacetime
+To demonstrate that spacetime can warp and “well” we commonly see pictures like:
 
-We expect that the light emitted from $p$ travels onwards forever. We make this idea precise with future null infinity $\mathcal{I}^+$, the idealized “place” where light rays that escape forever end up (see a Penrose diagram for more). Past null infinity $\mathcal{I}^-$ is where incoming light originates.
+IMAGE
+
+### Geodesics
+
+The manifold $M$ formalises the “arena” that things in the universe exist within, but what things are there? Simply put there are two types of things: matter and light. Matter, burdened by mass, is free chooses its own speed, while massless light has no such luxury and must always travel at $c=3\times10^8\,\text{ms}^{-1}$ (in a vacuum) and no faster. In a sense, mass is just the ability to slow down by holding onto the local Higgs field - like a bird dragging its feet in water.
+
+Let us consider a particle which exists at some time and space denoted by the event $p$. If the particle is stationary, its position in space cannot move yet its position in time cannot stop moving. The result is that the trajectory of the particle through spacetime, its worldline, goes directly upwards. If the particle was a photon, it must travel at $c$ such that the wordline drawn is a $45\deg$ line, this is called a null trajectory. Take some time to think about why this is so.
+<img src="{{ '/assets/spacetime.png' | relative_url }}"
+     alt="Spacetime"
+     style="width:250px !important; height:auto;">
+Massive particles of varying speeds have wordlines that lie in between these two extremes - these are called timelike trajectories
+
+Spacetime can curve. A free particles worldlines is always a geodesic (shortest path). If the spacetime is curved, then the geodesic is apparently curved, which is why things fall. Earth creates a WELL which things fall into. This is the source of gravity in everyday life - perhaps a familiar picture.
+
+> Spacetime tells matter how to move; matter tells spacetime how to curve - J. A. Wheeler
+>
+
+### Causality
+
+What events can influence one another? Imagine wiggling a magnet such that the electromagnetic force (a form of light) transmits that force to cause another magnet to wiggle somewhere else. We describe this as a causal connection. Light represents the fastest possible signalling possible between two events such that the extreme limits of signalling follow null trajectories. 
+
+Shine a flashlight into empty space ($p$) and follow the light. What ensues is a cone, mapping out all the events that light could reach as it propagates outwards in space and time:
+
+IMAGE
+
+This is the future lightcone of event $p$, and working backwards we can describe a past lightcone of all the events which could have send a signal to $p$, thereby influencing it. Events within these cones can influence/be influenced by the event $p$. Outside the cone there can be no causal relation without faster-than-light signalling. The set of events that make up the future/past lightcone is called the causal future/past of $p$, $J^+(p)/J^-(p)$ . We expect that the light emitted from $p$ travels onwards forever. We make this idea precise with future null infinity $\mathcal{I}^+$, the idealised “place” where light rays that escape forever end up (look up Penrose diagrams for more detail).
 
 ### Horizons
 
