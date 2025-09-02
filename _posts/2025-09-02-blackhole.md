@@ -74,7 +74,7 @@ $J^-(\mathcal{I}^+)$ is the causal past of future null infinity - the set of all
 <img src="{{ '/assets/venn.png' | relative_url }}"
      alt="worldlines"
      style="width:800px !important; height:auto;">
-A universe containing a black hole is split in two, partitioned by $\mathcal{H}^+=\text{Boundary}(M\cap J^-(\mathcal{I}^+))$. This is the future event horizon and it acts as a point of no return. Once crossed, not even light can escape, justifying the name black hole. A subtle but important point is that while the horizon carries great significance globally, a local observer crossing it may not even notice. The definition given restricts causal relations only, with no requirement that the spacetime interior and exterior to the black hole be different.
+A universe containing a black hole is split in two, partitioned by $\mathcal{H}^+=\text{Boundary}[M\cap J^-(\mathcal{I}^+)]$. This is the future event horizon and it acts as a point of no return. Once crossed, not even light can escape, justifying the name black hole. A subtle but important point is that while the horizon carries great significance globally, a local observer crossing it may not even notice. The definition given restricts causal relations only, with no requirement that the spacetime interior and exterior to the black hole be different.
 
 ### A Dark Star
 
