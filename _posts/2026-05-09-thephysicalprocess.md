@@ -66,7 +66,9 @@ Now comes the interesting part. I'm going to argue that all this feels weird to 
 Consider the very human example of height and shoe size. All humans have some height and some shoe size (assuming they have feet). Even before I check all 8 billion of them, they exist. I might imagine some spreadsheet somewhere with 8 billion entries that look like $(\text{height},\text{shoe size})$ acting as an underlying description of reality.
 
 In terms of the ball, all possible positions and momenta exist in a spreadsheet called the state space. If there are two positions, left and right, and two momenta, forwards and backwards, then all information about the ball is encoded in the pair $(x,p)$. The complete set of options the ball can exist in, the state space, is then:
-$$\Omega=\{(L,F),(L,B),(R,F),(R,B)\}$$
+<div style="text-align: center; font-size: 1em;">
+	\[ \Omega=\{(L,F),(L,B),(R,F),(R,B)\} \]
+<\div>
 Any one of these four options represents a complete specification of reality and even if we don't know the exact state of the ball, we know it's one of these four options. 
 
 In a state space description of reality, knowledge of one variable can narrow down knowledge of the other. Imagine that $(R,B)$ was no longer an option and the state space was reduced to:
@@ -77,4 +79,4 @@ The electron doesn't admit a joint distribution like the ball does. Instead ever
 $$\psi + \text{measurement of }x\text{ OR }p\longrightarrow\text{probabilities of }x\text{ OR }p$$
 If I choose to measure position, quantum theory tells me the probabilities for position outcomes. If I choose momentum, it tells me the probabilities for momentum outcomes. But the theory cannot describe probabilities for position and momentum outcomes at the same time. This is more general than the description of the ball, because in the quantum theory I can never have a situation where knowing the position $x=R$, immediately tells me the momentum $p=F$. The Heisenberg uncertainty principle forbids correlations as restrictive as this one, and so it forbids an underlying spreadsheet from describing an electron. 
 
-If I have lots of electrons, these quantum effects average out over the collective resulting in the emergence of a ball that behaves like a ball rather than a ball that behaves like an electron.
+If I have many electrons, these quantum effects average out over the collective resulting in the emergence of a ball that behaves like a ball rather than a ball that behaves like an electron.
