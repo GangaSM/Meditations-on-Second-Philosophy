@@ -93,7 +93,7 @@ In a state space description of reality, knowledge of one variable can narrow do
 
 Here when $x=L$, $p(L,F)=p(L,B)=\frac{1}{2}$, and when $x=R$, $p(R,F)=1$. In this case, if I know that $x=R$, then I immediately know that $p=F$ because the two results are correlated through the joint distribution $p(x,p)$.
 
-The electron doesn't admit a joint distribution like the ball does. Instead everything we know about a given electron is encoded in a state $\psi$ which replaces the $(x,p)$ picture we have for the information of the ball. At any given time, I can interpret $\psi$ through the lens of position, as some probability of seeing a position $p_\psi(x)=|\psi(x)|^2$, or through the lens of momentum, as $p_\tilde{\psi}(p)=|\tilde{\psi}(p)|^2$, but never as $p_{\psi\backslash\tilde{\psi}}(x,p)$ at the same time. Quantum theory removes the spreadsheet underneath and instead follows the rule:
+The electron doesn't admit a joint distribution like the ball does. Instead everything we know about a given electron is encoded in a state $\psi$ which replaces the $(x,p)$ picture we have for the information of the ball. At any given time, I can interpret $\psi$ through the lens of position, as some probability of seeing a position $p_\psi(x)=\mid\psi(x)\mid^2$, or through the lens of momentum, as $p_\tilde{\psi}(p)=\mid\tilde{\psi}(p)\mid^2$, but never as $p_{\psi\backslash\tilde{\psi}}(x,p)$ at the same time. Quantum theory removes the spreadsheet underneath and instead follows the rule:
 
 <div style="text-align: center; font-size: 1em;">
 	\[ \psi + \text{measurement of }x\text{ OR }p\longrightarrow\text{probabilities of }x\text{ OR }p \]
