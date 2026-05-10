@@ -1,6 +1,6 @@
 ---
 title: The Physic(al) Process
-subtitle: A tale of trial and error in a quantum world<br>Submission to Sikhs in Academia 2026
+subtitle: A tale of trial and error in a quantum world<br><br>Submission to Sikhs in Academia 2026
 layout: post
 author: Ganga Singh Manchanda
 category: philosophy of physics
@@ -33,13 +33,13 @@ To start then, let's guess some rule based on our intuition and write it down on
 
 <div style="text-align: center; font-size: 1em;">
 	\[ \text{force}=\text{mass}\times\text{velocity} \]
-<\div>
+</div>
 	
 and then we check the physical consequences implied by this rule. Congratulations, you are now a theoretical physicist! Next we have to check that the universe actually obeys this rule, so we go out into the world and test whether what we've written down actually matches what happens. This is the job of the experimental physicist. If there is a discrepancy between prediction and experiment then the rules we wrote down were wrong and we go back to the drawing board. In this case we were wrong, but not entirely. According to this rule, the follow through on a punch has no impact on how much it hurts. If you've ever been punched, you know that just isn't true. Returning to the problem, let's instead write:
 
 <div style="text-align: center; font-size: 1em;">
 	\[ \text{force}=\text{mass}\times\text{acceleration} \]
-<\div>
+</div>
 	
 and have an experimentalist verify again. Acceleration accounts for this follow through unlike velocity. This time we find that the rule holds, **but only under certain conditions**. And it's this phrase that contains everything important about how physics actually works. No rule is final.
 
@@ -61,7 +61,7 @@ With the ball, I could talk about the its position and its momentum, and how the
 
 <div style="text-align: center; font-size: 1em;">
 	\[ \Delta x\Delta p\ge\frac{\hbar}{2} \]
-<\div>
+</div>
 	
 This equation describes a tradeoff in information between position and momentum. The more I know about position the less I know about momentum. The more I know about momentum the less I know about position. 
 
@@ -81,7 +81,7 @@ In terms of the ball, all possible positions and momenta exist in a spreadsheet 
 
 <div style="text-align: center; font-size: 1em;">
 	\[ \Omega=\{(L,F),(L,B),(R,F),(R,B)\} \]
-<\div>
+</div>
 	
 Any one of these four options represents a complete specification of reality and even if we don't know the exact state of the ball, we know it's one of these four options. 
 
@@ -89,7 +89,7 @@ In a state space description of reality, knowledge of one variable can narrow do
 
 <div style="text-align: center; font-size: 1em;">
 	\[ \Omega=\{(L,F),(L,B),(R,F)\} \]
-<\div>
+</div>
 
 Here when $x=L$, $p(L,F)=p(L,B)=\frac{1}{2}$, and when $x=R$, $p(R,F)=1$. In this case, if I know that $x=R$, then I immediately know that $p=F$ because the two results are correlated through the joint distribution $p(x,p)$.
 
