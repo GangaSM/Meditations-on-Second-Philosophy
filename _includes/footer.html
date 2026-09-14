@@ -1,0 +1,18 @@
+{%- assign year = site.time | date: "%Y" | plus: 0 -%}
+{%- assign vals = "1000,900,500,400,100,90,50,40,10,9,5,4,1" | split: "," -%}
+{%- assign syms = "M,CM,D,CD,C,XC,L,XL,X,IX,V,IV,I" | split: "," -%}
+{%- assign roman = "" -%}
+{%- for i in (0..12) -%}
+  {%- assign v = vals[i] | plus: 0 -%}
+  {%- for pass in (1..4) -%}
+    {%- if year >= v -%}
+      {%- assign year = year | minus: v -%}
+      {%- assign roman = roman | append: syms[i] -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+<footer class="site-foot">
+  <div class="wrap">
+    <p>&copy; {{ roman }}</p>
+  </div>
+</footer>

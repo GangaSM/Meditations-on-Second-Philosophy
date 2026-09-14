@@ -1,0 +1,21 @@
+# Talks, posters and seminars, newest first.
+# `url` may be a local path (slides) or an external link.
+
+- title: "When energy isn't enough: certification failure in variational principle observables"
+  event: Tew Group Meeting
+  where: University of Oxford
+  date: August 2026
+  kind: talk
+  url: /assets/slides/when-energy-isnt-enough.pdf
+
+- title: "The Physic(al) Process: a tale of trial and error in a quantum world"
+  event: Sikhs in Academia 2026
+  date: May 2026
+  kind: talk
+  url: /assets/slides/the-physical-process.pdf
+
+- title: Distances in Discrete Space-time
+  event: Imperial College London
+  date: May 2023
+  kind: BSc Viva
+  url: /assets/slides/bsc-viva.pdf

@@ -1,0 +1,190 @@
+---
+layout: default
+nav_id: research
+permalink: /research/
+title: Research
+description: Hamiltonian simulation, quantum algorithms and quantum gravity — publications, presentations and background of Ganga Singh Manchanda.
+---
+
+<div class="wrap wrap--wide">
+
+  <div class="page-lede">
+    <p>
+      My work concerns the theoretical foundations, limitations and extensions of modern
+      methods of Hamiltonian simulation. I came to quantum algorithms from high energy
+      theory: at Imperial College London I read Physics with Theoretical Physics and then
+      Quantum Fields and Fundamental Forces, and carried out research in quantum gravity
+      at the Abdus Salam Centre for Theoretical Physics before moving to Oxford and IBM.
+    </p>
+  </div>
+
+  <section class="section">
+    <div class="section__head">
+      <h2>Publications</h2>
+      <p class="section__links">
+        <a href="https://orcid.org/0009-0009-8891-4766">orcid</a>
+        <span class="sep" aria-hidden="true">&middot;</span>
+        <a href="https://arxiv.org/a/manchanda_g_1">arxiv</a>
+      </p>
+    </div>
+    <ol class="pub-list">
+      <li>
+        <h3 class="pub__title">
+          <a href="https://arxiv.org/abs/2604.16990">A note on complete gauge-fixing and the constraint algebra</a>
+        </h3>
+        <p class="pub__authors"><span class="self">G. S. Manchanda</span></p>
+        <p class="pub__meta">
+          arXiv:2604.16990 [gr-qc]
+          <span class="sep" aria-hidden="true">/</span> 2026
+          <span class="sep" aria-hidden="true">/</span> <span class="tag tag--open">preprint</span>
+        </p>
+      </li>
+      <li>
+        <h3 class="pub__title">
+          <a href="https://doi.org/10.1016/j.physletb.2025.139434">Quantum wormholes at spatial infinity</a>
+        </h3>
+        <p class="pub__authors">J. Magueijo and <span class="self">G. S. Manchanda</span></p>
+        <p class="pub__meta">
+          <em>Physics Letters B</em> <strong>864</strong>, 139434
+          <span class="sep" aria-hidden="true">/</span> 2025
+          <span class="sep" aria-hidden="true">/</span> <span class="tag">published</span>
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="section">
+    <h2>Presentations</h2>
+    <ul class="records">
+      {%- for talk in site.data.presentations %}
+      <li>
+        <p class="records__when">{{ talk.date }}</p>
+        <div>
+          <p class="records__what">
+            {%- if talk.url %}<a href="{{ talk.url | relative_url }}">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif -%}
+          </p>
+          <p class="records__where">
+            {{ talk.event }}{% if talk.where %} &middot; {{ talk.where }}{% endif %}{% if talk.kind %} <span class="status">({{ talk.kind }})</span>{% endif %}
+          </p>
+        </div>
+      </li>
+      {%- else %}
+      <li><p class="records__empty">Add talks and posters to <code>_data/presentations.yml</code>.</p></li>
+      {%- endfor %}
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Positions</h2>
+    <ul class="records">
+      <li>
+        <p class="records__when">Apr 2026 &mdash; present</p>
+        <div>
+          <p class="records__what">Doctoral Researcher</p>
+          <p class="records__where">Physical and Theoretical Chemistry Laboratory, University of Oxford</p>
+        </div>
+      </li>
+      <li>
+        <p class="records__when">Apr 2026 &mdash; present</p>
+        <div>
+          <p class="records__what">Doctoral Researcher</p>
+          <p class="records__where">IBM Quantum, IBM Research Europe</p>
+        </div>
+      </li>
+      <li>
+        <p class="records__when">Oct 2024 &mdash; Mar 2025</p>
+        <div>
+          <p class="records__what">Graduate Researcher</p>
+          <p class="records__where">Abdus Salam Centre for Theoretical Physics, Imperial College London</p>
+        </div>
+      </li>
+      <li>
+        <p class="records__when">Jul 2019 &mdash; Aug 2019</p>
+        <div>
+          <p class="records__what">Student Researcher</p>
+          <p class="records__where">Department of Mathematics, University of Birmingham</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Teaching</h2>
+    <ul class="records">
+      {%- for t in site.data.teaching %}
+      <li>
+        <p class="records__when">{{ t.date }}</p>
+        <div>
+          <p class="records__what">{{ t.role }}{% if t.course %} &mdash; {{ t.course }}{% endif %}</p>
+          {%- if t.where %}<p class="records__where">{{ t.where }}</p>{% endif %}
+        </div>
+      </li>
+      {%- else %}
+      <li><p class="records__empty">Add teaching to <code>_data/teaching.yml</code>.</p></li>
+      {%- endfor %}
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Education</h2>
+    <ul class="records">
+      <li>
+        <p class="records__when">Apr 2026 &mdash; present</p>
+        <div>
+          <p class="records__what">DPhil, Quantum Algorithms</p>
+          <p class="records__where">University of Oxford, in collaboration with IBM</p>
+          <p class="records__note">Supervised by Prof. David P. Tew and Dr Lewis W. Anderson.</p>
+        </div>
+      </li>
+      <li>
+        <p class="records__when">Oct 2023 &mdash; Oct 2024</p>
+        <div>
+          <p class="records__what">MSc DIC, Quantum Fields and Fundamental Forces</p>
+          <p class="records__where">Imperial College London &middot; Distinction</p>
+          <p class="records__note">
+            Thesis:
+            <a href="{{ '/assets/theses/msc-canonical-quantisation-of-gravitational-systems.pdf' | relative_url }}">Canonical Quantisation of Gravitational Systems</a>
+          </p>
+          <p class="records__note">Supervised by Prof. João Magueijo.</p>
+        </div>
+      </li>
+      <li>
+        <p class="records__when">Oct 2020 &mdash; Jun 2023</p>
+        <div>
+          <p class="records__what">BSc ARCS, Physics with Theoretical Physics</p>
+          <p class="records__where">Imperial College London &middot; First Class Honours</p>
+          <p class="records__note">
+            Thesis:
+            <a href="{{ '/assets/theses/bsc-distances-in-discrete-spacetime.pdf' | relative_url }}">Distances in Discrete Space-time</a>
+          </p>
+          <p class="records__note">Supervised by Dr Tim S. Evans.</p>
+        </div>
+      </li>
+      <li class="is-prior">
+        <p class="records__when">Sep 2013 &mdash; Jul 2020</p>
+        <div>
+          <p class="records__what">Nishkam High School Birmingham</p>
+          <p class="records__where">Top Student at GCSE and A-Level</p>
+          <p class="records__note">
+            Mathematics, Further Mathematics, Physics, Chemistry, Economics (AS), EPQ.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Awards</h2>
+    <ul class="award-list">
+      <li>
+        <p class="records__what">EPSRC Industrial Doctoral Landscape Award</p>
+        <p class="records__where">University of Oxford and IBM</p>
+      </li>
+      <li>
+        <p class="records__what">National Quantum Scholarship <span class="status">(declined)</span></p>
+        <p class="records__where">Centre for Quantum Technologies, National University of Singapore</p>
+      </li>
+    </ul>
+  </section>
+
+</div>

@@ -1,0 +1,11 @@
+<header class="site-nav">
+  <nav class="wrap wrap--wide" aria-label="Primary">
+    <ul>
+      {%- for item in site.data.nav -%}
+      <li{% if page.nav_id == item.id %} class="is-current" aria-current="page"{% endif %}>
+        <a href="{{ item.url | relative_url }}"><span class="ket" aria-hidden="true">|</span>{{ item.title }}<span class="ket" aria-hidden="true">&#10217;</span></a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+</header>

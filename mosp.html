@@ -1,0 +1,41 @@
+---
+layout: default
+nav_id: mosp
+body_class: flush-nav
+permalink: /mosp/
+title: Meditations on Second Philosophy
+description: A physics and philosophy blog by Ganga Singh Manchanda, on the foundations of quantum mechanics and gravity.
+---
+
+<header class="mosp-panel">
+  <div class="wrap wrap--wider">
+    <img class="mosp-panel__mark" src="{{ '/assets/images/mosp-mark.png' | relative_url }}" alt="Meditations on Second Philosophy" width="1076" height="1010">
+    <h1>{{ site.mosp.title }}</h1>
+    <p>{{ site.mosp.blurb }}</p>
+  </div>
+</header>
+
+<div class="wrap wrap--wider">
+  {%- if site.mosp.summary %}
+  <div class="mosp-summary">
+    <p>{{ site.mosp.summary }}</p>
+  </div>
+  {%- endif %}
+
+  <ul class="post-list">
+    {%- for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <span class="post-list__when">{{ post.date | date: "%-d %B %Y" }}{% if post.category %} &middot; {{ post.category }}{% endif %}</span>
+        <span class="post-list__title">{{ post.title }}</span>
+        {%- assign blurb = post.subtitle | default: post.venue %}
+        {%- if blurb %}
+        <span class="post-list__sub">{{ blurb }}</span>
+        {%- endif %}
+      </a>
+    </li>
+    {%- else %}
+    <li><p class="post-list__empty">Nothing published yet.</p></li>
+    {%- endfor %}
+  </ul>
+</div>

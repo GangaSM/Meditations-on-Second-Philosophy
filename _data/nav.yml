@@ -1,0 +1,11 @@
+# Primary navigation. `id` is matched against a page's `nav_id` to mark the
+# current page with Dirac notation, e.g. |research⟩
+- id: about
+  title: about me
+  url: /
+- id: research
+  title: research
+  url: /research/
+- id: mosp
+  title: mosp
+  url: /mosp/

@@ -1,6 +1,8 @@
 ---
 title: The Physic(al) Process
-subtitle: A tale of trial and error in a quantum world<br><br>Submission to Sikhs in Academia 2026
+subtitle: A tale of trial and error in a quantum world
+venue: Submission to Sikhs in Academia 2026
+slides: /assets/slides/the-physical-process.pdf
 layout: post
 author: Ganga Singh Manchanda
 category: philosophy of physics

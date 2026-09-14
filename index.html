@@ -1,4 +1,47 @@
 ---
-title: Home
-layout: home
+layout: default
+nav_id: about
+title: About me
+seo_title: Ganga Singh Manchanda
+description: Ganga Singh Manchanda is a doctoral researcher in quantum algorithms at the University of Oxford and IBM Quantum.
 ---
+
+<div class="wrap">
+  <section class="about">
+
+    <figure class="about__portrait">
+      {%- if site.portrait %}
+      <img src="{{ site.portrait | relative_url }}" alt="{{ site.author }}" width="1000" height="1000">
+      {%- else %}
+      <div class="portrait-fallback">Portrait goes here</div>
+      {%- endif %}
+    </figure>
+
+    <h1 class="about__name">{{ site.author }}</h1>
+    <p class="about__role">{{ site.tagline }}</p>
+
+    <p class="about__bio">
+      I work between Oxford&rsquo;s Physical and Theoretical Chemistry Laboratory and
+      IBM Quantum, on an EPSRC Industrial Doctoral Landscape Award. Alongside it I keep
+      <a href="{{ '/mosp/' | relative_url }}">Meditations on Second Philosophy</a>, an
+      archive of work and thoughts on physics and philosophy.
+    </p>
+
+    <dl class="about__contact">
+      {%- for c in site.contact %}
+      <div>
+        <dt>{{ c.label }}</dt>
+        <dd><a href="mailto:{{ c.mailto }}">{{ c.address }}</a></dd>
+      </div>
+      {%- endfor %}
+    </dl>
+
+    <ul class="about__links">
+      {%- for link in site.links -%}
+      {%- if forloop.index > 1 %}<li class="sep" aria-hidden="true">&middot;</li>{% endif %}
+      <li><a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.title }}</a></li>
+      {%- endfor -%}
+    </ul>
+
+  </section>
+</div>

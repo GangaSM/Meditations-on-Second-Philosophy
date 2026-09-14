@@ -2,46 +2,37 @@
 layout: default
 ---
 
-{% if site.data.menu %}
-  {% include menu.html %}
-{% else %}
-  {% include back-link.html %}
-{% endif %}
+<article class="wrap wrap--article post h-entry" itemscope itemtype="https://schema.org/BlogPosting">
+  <header class="post-head">
+    <p class="post-head__kicker">
+      <a href="{{ '/mosp/' | relative_url }}">&larr; {{ site.mosp.title }}</a>
+    </p>
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
+    <h1 class="p-name" itemprop="headline">{{ page.title }}</h1>
 
-  {% if page.title != "" %}
-    <h1 class="post-title divided p-name" itemprop="name headline">
-      {{ page.title }}
-    </h1>
-  {% endif %}
+    {%- if page.subtitle %}
+    <p class="post-head__sub" itemprop="alternativeHeadline">{{ page.subtitle }}</p>
+    {%- endif %}
 
-  {% if page.subtitle %}
-    <h2 class="post-subtitle" itemprop="alternativeHeadline">
-      {{ page.subtitle }}
-    </h2>
-    <style>
-      .post-subtitle {
-        font-size: 1.25em;
-        font-style: italic;
-        margin-top: 0em;
-      }
-    </style>
-  {% endif %}
+    <p class="post-head__meta">
+      {%- if page.author %}<span itemprop="author">{{ page.author }}</span><span class="sep" aria-hidden="true">/</span>{% endif -%}
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {%- if page.category %}<span class="sep" aria-hidden="true">/</span><span>{{ page.category }}</span>{% endif -%}
+      {%- if page.venue %}<span class="sep" aria-hidden="true">/</span><span class="status">{{ page.venue }}</span>{% endif -%}
+      {%- if page.slides %}<span class="sep" aria-hidden="true">/</span><a href="{{ page.slides | relative_url }}">slides</a>{% endif -%}
+    </p>
+  </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
 
-  <div class="post-meta">
-    {% if page.author %}
-      <div itemprop="author">{{ page.author }}</div>
-    {% endif %}
-    <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
-  </div>
-
-  {% if site.disqus.shortname %}
-    {% include disqus-comments.html %}
-  {% endif %}
-
+  <footer class="post-foot">
+    {%- if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}"><span class="arrow" aria-hidden="true">&larr;</span> {{ page.previous.title }}</a>
+    {%- else %}<span></span>{% endif %}
+    {%- if page.next %}
+      <a href="{{ page.next.url | relative_url }}">{{ page.next.title }} <span class="arrow" aria-hidden="true">&rarr;</span></a>
+    {%- else %}<span></span>{% endif %}
+  </footer>
 </article>
