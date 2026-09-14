@@ -18,7 +18,7 @@ description: mosp page
 <div class="wrap wrap--wider">
   {%- if site.mosp.summary %}
   <div class="mosp-summary">
-    <p>{{ site.mosp.summary }}</p>
+    {{ site.mosp.summary | markdownify }}
   </div>
   {%- endif %}
 
