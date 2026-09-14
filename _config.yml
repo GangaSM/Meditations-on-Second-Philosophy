@@ -5,9 +5,6 @@ tagline:  doctoral researcher in quantum algorithms
 author:   Ganga Singh Manchanda
 email:    ganga@manchanda.co.uk
 description: >-
-  Ganga Singh Manchanda is a doctoral researcher in quantum algorithms at the
-  University of Oxford and IBM Quantum, and the author of Meditations on Second
-  Philosophy.
 
 # Currently served from the GitHub Pages project path. To move to the custom
 # domain: rename CNAME.disabled back to CNAME and swap these two lines for the
@@ -20,10 +17,10 @@ baseurl: "/Meditations-on-Second-Philosophy"
 # Shown as plain text on the about page, obfuscated against scrapers.
 contact:
   - label: research
-    address: ganga[dot]manchanda[at]chem[dot]ox[dot]ac[dot]uk
+    address: ganga.manchanda[at]chem.ox.ac.uk
     mailto: ganga.manchanda@chem.ox.ac.uk
   - label: personal
-    address: ganga[at]manchanda[dot]co[dot]uk
+    address: ganga[at]manchanda.co.uk
     mailto: ganga@manchanda.co.uk
 
 # The one line of links on the about page. Add or reorder freely.
@@ -48,16 +45,16 @@ portrait: /assets/images/portrait.jpg
 mosp:
   title: Meditations on Second Philosophy
   # One line, sits in the plum panel under the wordmark.
-  blurb: Sharing ideas in physics and philosophy.
+  blurb: Sharing ideas in physics, philosophy, and theology.
   # A longer introduction, sits above the list of articles.
   summary: >-
-    The exploratory corner of the site, though in practice mostly an archive — of
-    work, of thoughts I want to keep hold of, and of ideas within physics and
-    philosophy I would otherwise lose. I lack the patience to do mathematics as a
-    mathematician and lack the experience to do philosophy as a philosopher, but
-    that isn't necessarily a bad thing. Named after Descartes' Meditations on First
-    Philosophy; the colour scheme is inspired by the Leviathan, which was a raid in
-    Destiny 2.
+  This blog is an exploratory exercise, though in practice mostly an archive, 
+  of interesting thoughts and ideas. By training, I am a theoretical physicist, 
+  and I carry that style of thinking into all aspects of inquiry. I lack the 
+  patience to do mathematics as a mathematician and the experience to do philosophy
+  as a philosopher, but that isn’t necessarily a bad thing. This blog is named
+  after Descartes’ *Meditations on First Philosophy*, and its colour scheme is
+  inspired by the Leviathan raid in *Destiny 2*.
 
 # ------------------------------------------------------------------ build --
 
