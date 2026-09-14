@@ -39,9 +39,7 @@ links:
   - title: arxiv
     url: https://arxiv.org/a/manchanda_g_1
 
-icon: /assets/images/icon-512.png   # the MoSP M, cropped from the wordmark
-
-# 4:5 crop, around 1100px tall.
+# Square crop, 1000px.
 portrait: /assets/images/portrait.jpg
 
 # The blog keeps its own identity inside the site.
@@ -81,15 +79,10 @@ defaults:
 plugins:
   - jekyll-sitemap
 
-sass:
-  style: compressed
-
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor/
   - .bundle/
   - README.md
-  - CODE_OF_CONDUCT.md
-  - Favicon.key
   - .idea/

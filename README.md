@@ -13,10 +13,11 @@ Personal site of Ganga Singh Manchanda, built with Jekyll and served by GitHub P
 
 Navigation lives in `_data/nav.yml`; the current page is marked with Dirac
 notation (`|research⟩`). Identity, the contact addresses and link row on the
-about page, and the MoSP blurb and summary are all in `_config.yml`. Contact
-addresses are written out obfuscated (`[at]`, `[dot]`) and rendered as plain
-text, not as `mailto:` links. Talks and posters go in
-`_data/presentations.yml` — that section hides itself while the file is empty.
+about page, and the MoSP blurb and summary are all in `_config.yml`. Each
+contact has an obfuscated `address` for display and a real `mailto`, so the
+address shown is not the one in the link. Talks and posters go in
+`_data/presentations.yml`, teaching in `_data/teaching.yml` — each section
+shows a placeholder pointing at its file while that file is empty.
 
 The whole design is one plain stylesheet, `assets/css/main.css` — there is no
 Sass build step. The Leviathan plum carries the masthead on every page and the
@@ -140,7 +141,7 @@ Put slide decks in `assets/slides/`.
 
 ## Images
 
-`assets/images/portrait.jpg` is a 7:8 crop, pointed at by `portrait:` in
+`assets/images/portrait.jpg` is a square 1000px crop, pointed at by `portrait:` in
 `_config.yml`; remove that key and the about page falls back to a placeholder.
 
 `favicon.png`, `assets/images/icon-180.png` and `icon-512.png` are all the MoSP
@@ -159,5 +160,5 @@ bundle exec jekyll serve
 
 Then open <http://localhost:4000/>.
 
-Pushing to `main` is enough to publish; GitHub Pages builds the site itself and
-serves it at the domain in `CNAME`.
+Pushing to `main` is enough to publish; GitHub Pages builds the site itself.
+Until the custom domain is switched on it serves from the project path above.
