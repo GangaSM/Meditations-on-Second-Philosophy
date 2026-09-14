@@ -9,8 +9,13 @@ description: >-
   University of Oxford and IBM Quantum, and the author of Meditations on Second
   Philosophy.
 
+# Currently served from the GitHub Pages project path. To move to the custom
+# domain: rename CNAME.disabled back to CNAME and swap these two lines for the
+# commented pair below. Do the DNS work first — see the README.
 url:     "https://gangasm.github.io"
 baseurl: "/Meditations-on-Second-Philosophy"
+# url:     "https://manchanda.co.uk"
+# baseurl: ""
 
 # Shown as plain text on the about page, obfuscated against scrapers.
 contact:
